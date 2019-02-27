@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "testRoom",
     "id": "9a48899b-9d8e-47cd-b4de-e02c18bdf52a",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -30,8 +30,8 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "modelName": "GMRTileLayer",
-            "prev_tileheight": 20,
-            "prev_tilewidth": 20,
+            "prev_tileheight": 40,
+            "prev_tilewidth": 40,
             "mvc": "1.0",
             "tiles": {
                 "SerialiseData": null,
