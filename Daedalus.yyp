@@ -50,8 +50,16 @@
             "Key": "03f55789-9119-4ed1-8263-7961e4c67eb0",
             "Value": {
                 "id": "41e2272f-5a79-45cc-8a0b-a415b9812f44",
-                "resourcePath": "tilesets\\testingSet\\testingSet.yy",
+                "resourcePath": "tilesets\\floorTiles\\floorTiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "0e4c9131-27d8-4c3b-b8a4-84702828c275",
+            "Value": {
+                "id": "c3dcd27c-1760-42a5-9dd3-add81da0ba8b",
+                "resourcePath": "sprites\\heightSprite\\heightSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -76,6 +84,14 @@
                 "id": "d75f19e4-d9e1-42e7-8756-3adfcbd67657",
                 "resourcePath": "views\\2ff8c42e-5687-4318-9e94-821d3f9fd109.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "30f96dc7-0f2e-47c2-a84b-914869764b4c",
+            "Value": {
+                "id": "2a8f62eb-1f0a-4284-b55b-49952c89b589",
+                "resourcePath": "rooms\\heightRoomTest\\heightRoomTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -164,6 +180,14 @@
                 "id": "ddebc1d2-ef31-43e7-9af8-7d1ad87b80c7",
                 "resourcePath": "views\\b72dfd68-0def-46ae-b0ea-8026abfdc2a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b7417685-c921-41a1-84e5-0a9733673fa4",
+            "Value": {
+                "id": "972c55ef-ec99-4402-ab63-e9be13416e4f",
+                "resourcePath": "tilesets\\heightTiles\\heightTiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
