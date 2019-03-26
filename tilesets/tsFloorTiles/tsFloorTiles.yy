@@ -2,7 +2,7 @@
     "id": "03f55789-9119-4ed1-8263-7961e4c67eb0",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "floorTiles",
+    "name": "tsFloorTiles",
     "auto_tile_sets": [
         
     ],
@@ -25,7 +25,8 @@
         "FrameData": [
             0,
             1,
-            2
+            2,
+            3
         ],
         "SerialiseFrameCount": 1
     },
@@ -33,7 +34,7 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 3,
+    "tile_count": 4,
     "tileheight": 40,
     "tilehsep": 0,
     "tilevsep": 0,

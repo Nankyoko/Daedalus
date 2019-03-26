@@ -2,7 +2,7 @@
     "id": "b7417685-c921-41a1-84e5-0a9733673fa4",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "heightTiles",
+    "name": "tsHeightTiles",
     "auto_tile_sets": [
         
     ],

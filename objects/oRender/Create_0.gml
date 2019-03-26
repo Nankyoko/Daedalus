@@ -25,7 +25,8 @@ for (var tX = 0; tX < MAP_W; tX++)
 		var thisTile = [-1, 0];
 		thisTile[TILE.SPRITE] = tileMapData;
 		
-		//All tiles are level in this renderer
+		//Renders each tile at its height according to the height map
+		//Change the *20 in order to change overall render height
 		thisTile[TILE.Z] = heightMapData*20;
 		global.theMap[# tX, tY] = thisTile;
 	}

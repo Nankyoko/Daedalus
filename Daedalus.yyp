@@ -50,15 +50,23 @@
             "Key": "03f55789-9119-4ed1-8263-7961e4c67eb0",
             "Value": {
                 "id": "41e2272f-5a79-45cc-8a0b-a415b9812f44",
-                "resourcePath": "tilesets\\floorTiles\\floorTiles.yy",
+                "resourcePath": "tilesets\\tsFloorTiles\\tsFloorTiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "0ae468cf-7bb0-4f33-b65a-9625d0810d74",
+            "Value": {
+                "id": "c7616cc5-dc14-4885-95b7-408213ec51ba",
+                "resourcePath": "scripts\\MouseToIsometric\\MouseToIsometric.yy",
+                "resourceType": "GMScript"
             }
         },
         {
             "Key": "0e4c9131-27d8-4c3b-b8a4-84702828c275",
             "Value": {
                 "id": "c3dcd27c-1760-42a5-9dd3-add81da0ba8b",
-                "resourcePath": "sprites\\heightSprite\\heightSprite.yy",
+                "resourcePath": "sprites\\sHeightSprite\\sHeightSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "4c197b69-fe2d-498e-9d4e-1f75478b4e65",
+            "Value": {
+                "id": "fefb9aec-0516-4cea-9136-e1da57621fc2",
+                "resourcePath": "sprites\\sSelectedTiles\\sSelectedTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5382093c-6b9b-4122-a7f1-dc0e08857081",
             "Value": {
                 "id": "ac09363c-d7c4-4c44-b0b3-29c463cbfa4d",
@@ -162,7 +178,15 @@
             "Key": "a1826bff-e01c-4b51-861a-608e5fa4adb9",
             "Value": {
                 "id": "ba3c2a4c-121b-4ef0-90b3-5a6352a0c2bb",
-                "resourcePath": "sprites\\flatSprite\\flatSprite.yy",
+                "resourcePath": "sprites\\sFlatSprite\\sFlatSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aa385d43-63d9-42b4-a55f-c355c3aee8ce",
+            "Value": {
+                "id": "d6776774-f04e-4d7f-859b-fb2402001bb6",
+                "resourcePath": "sprites\\sStiffGwen\\sStiffGwen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -186,7 +210,7 @@
             "Key": "b7417685-c921-41a1-84e5-0a9733673fa4",
             "Value": {
                 "id": "972c55ef-ec99-4402-ab63-e9be13416e4f",
-                "resourcePath": "tilesets\\heightTiles\\heightTiles.yy",
+                "resourcePath": "tilesets\\tsHeightTiles\\tsHeightTiles.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -202,7 +226,7 @@
             "Key": "c0996a1e-7a26-45e0-a17d-4cbbf6fbbae5",
             "Value": {
                 "id": "41a7507b-ca34-4c8d-a56e-367c18bdbd9b",
-                "resourcePath": "sprites\\flatStoneTile\\flatStoneTile.yy",
+                "resourcePath": "sprites\\sIsometricTiles\\sIsometricTiles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -253,12 +277,21 @@
                 "resourcePath": "views\\e2741cb5-ac98-41dc-aa0e-3f4b97ec0785.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f42f2657-4889-4569-aa74-c2190ae1eee2",
+            "Value": {
+                "id": "43419e66-1047-4d50-846f-7bdfa6c08b82",
+                "resourcePath": "objects\\oStiffGwen\\oStiffGwen.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
         "1891a318-9167-45bd-be47-13a6bb3e9eae",
         "1e54535a-63ad-4bda-88dc-ab6dc07a608e",
-        "bdf6bf4d-2e57-44bd-ba03-8a2d07095e3a"
+        "bdf6bf4d-2e57-44bd-ba03-8a2d07095e3a",
+        "0ae468cf-7bb0-4f33-b65a-9625d0810d74"
     ],
     "tutorial": ""
 }
