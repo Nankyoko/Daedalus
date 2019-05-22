@@ -1,8 +1,5 @@
 /// @description Render game
-var tileData, roomX, roomY, tileIndex, tileZ;
-
-//Aquire the location of the mouse at the start of each frame and convert it to an isometric tile
-MouseToIsometric();
+var tileData, roomX, roomY, tileIndex, tileZ, firstTile;
 
 //Render each tile in column order
 for (var tX = 0; tX < MAP_W; tX++)
@@ -18,7 +15,10 @@ for (var tX = 0; tX < MAP_W; tX++)
 		
 		//As long as its not a blank tile, draw it
 		if(tileIndex !=0) {
-			if(global.isoTileX == tX && global.isoTileY == tY) {
+			
+			//For some reason this logic is backwards, but it works and as long as we do switches instead
+			//actual setting it will be fine.
+			if(tileData[TILE.SELECTED]) {
 				draw_sprite(sSelectedTiles, tileIndex - 1, roomX, roomY-tileZ);
 			} else {
 				draw_sprite(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ);

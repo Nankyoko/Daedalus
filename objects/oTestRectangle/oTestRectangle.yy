@@ -1,38 +1,38 @@
 {
-    "id": "5c67b194-55d5-489b-a5e1-bafc31d7d430",
+    "id": "a6c83035-83c1-454c-bdad-d7018eb20ae8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oRender",
+    "name": "oTestRectangle",
     "eventList": [
         {
-            "id": "494e76e4-2680-48b7-b5d2-d8dd1dd41b95",
+            "id": "47bb4419-bc3d-4c9e-ba5c-123c57769206",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "a6c83035-83c1-454c-bdad-d7018eb20ae8"
+        },
+        {
+            "id": "1742bf91-a926-4893-bff6-bf0116e328d0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "5c67b194-55d5-489b-a5e1-bafc31d7d430"
+            "m_owner": "a6c83035-83c1-454c-bdad-d7018eb20ae8"
         },
         {
-            "id": "875f1b27-04de-40d6-8a37-19c711bf6f1e",
+            "id": "679f70d7-a7a2-4073-936b-61b79bfaafe5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "5c67b194-55d5-489b-a5e1-bafc31d7d430"
-        },
-        {
-            "id": "ceacc11a-0982-4558-89a7-b0b225a2c0e8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 38,
-            "eventtype": 5,
-            "m_owner": "5c67b194-55d5-489b-a5e1-bafc31d7d430"
+            "enumb": 110,
+            "eventtype": 9,
+            "m_owner": "a6c83035-83c1-454c-bdad-d7018eb20ae8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

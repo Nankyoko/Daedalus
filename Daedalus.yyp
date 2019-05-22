@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "0ae468cf-7bb0-4f33-b65a-9625d0810d74",
-            "Value": {
-                "id": "c7616cc5-dc14-4885-95b7-408213ec51ba",
-                "resourcePath": "scripts\\MouseToIsometric\\MouseToIsometric.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "0e4c9131-27d8-4c3b-b8a4-84702828c275",
             "Value": {
                 "id": "c3dcd27c-1760-42a5-9dd3-add81da0ba8b",
@@ -167,6 +159,14 @@
             }
         },
         {
+            "Key": "9c0eb4f3-d387-4140-842a-b7e0fe931410",
+            "Value": {
+                "id": "afe34368-0550-416b-8d0f-d7a065d781cd",
+                "resourcePath": "scripts\\GetSelectedTile\\GetSelectedTile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9e80c36c-f6ec-4322-9257-4f83868a49d8",
             "Value": {
                 "id": "19674ca8-24ec-4293-8f5b-62aa3974af08",
@@ -183,11 +183,43 @@
             }
         },
         {
+            "Key": "a6c83035-83c1-454c-bdad-d7018eb20ae8",
+            "Value": {
+                "id": "2f8a087b-f940-43a4-b78f-67320a86cc83",
+                "resourcePath": "objects\\oTestRectangle\\oTestRectangle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a85e2f63-112b-4eab-9b48-fb438fac53bc",
+            "Value": {
+                "id": "86e3298b-55a8-4a5f-a24c-8bc1becc9ce9",
+                "resourcePath": "scripts\\SelectFirstTile\\SelectFirstTile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "aa385d43-63d9-42b4-a55f-c355c3aee8ce",
             "Value": {
                 "id": "d6776774-f04e-4d7f-859b-fb2402001bb6",
                 "resourcePath": "sprites\\sStiffGwen\\sStiffGwen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aaa08282-0e3e-4b6c-9813-6293d087f1ef",
+            "Value": {
+                "id": "6ecaf4b9-a421-41fb-8e52-d84de85e93ae",
+                "resourcePath": "sprites\\sTestUIRectangle\\sTestUIRectangle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aedc6218-c6b0-450f-86ec-74e15e5fb185",
+            "Value": {
+                "id": "59c8d239-49ec-40d9-8ab5-498f65be0e7e",
+                "resourcePath": "scripts\\UIRectangle\\UIRectangle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -291,7 +323,9 @@
         "1891a318-9167-45bd-be47-13a6bb3e9eae",
         "1e54535a-63ad-4bda-88dc-ab6dc07a608e",
         "bdf6bf4d-2e57-44bd-ba03-8a2d07095e3a",
-        "0ae468cf-7bb0-4f33-b65a-9625d0810d74"
+        "a85e2f63-112b-4eab-9b48-fb438fac53bc",
+        "9c0eb4f3-d387-4140-842a-b7e0fe931410",
+        "aedc6218-c6b0-450f-86ec-74e15e5fb185"
     ],
     "tutorial": ""
 }
