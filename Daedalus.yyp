@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "0a34db01-bb53-406c-b303-caf07987c481",
+            "Value": {
+                "id": "c89cdcf5-21ae-4de4-8a1d-39b7e1af6192",
+                "resourcePath": "objects\\oTestDialogSoftly\\oTestDialogSoftly.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0e42914d-d0ac-43a8-9a3d-324949c85e3c",
+            "Value": {
+                "id": "b3d2adfc-978c-4683-9949-e7916e73a0db",
+                "resourcePath": "objects\\oTestTwoBranch\\oTestTwoBranch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e4c9131-27d8-4c3b-b8a4-84702828c275",
             "Value": {
                 "id": "c3dcd27c-1760-42a5-9dd3-add81da0ba8b",
@@ -100,6 +116,14 @@
                 "id": "2a8f62eb-1f0a-4284-b55b-49952c89b589",
                 "resourcePath": "rooms\\heightRoomTest\\heightRoomTest.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3209fefd-849f-45d3-b4d8-d2daaffd80f7",
+            "Value": {
+                "id": "439cff18-ff3e-48c4-8d84-568919f11e95",
+                "resourcePath": "scripts\\TwoChoiceBranch\\TwoChoiceBranch.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -311,6 +335,14 @@
             }
         },
         {
+            "Key": "f2030887-986d-408c-984e-c1caec0e408d",
+            "Value": {
+                "id": "9b234a81-96bc-484c-ad07-fde3b0f61c6b",
+                "resourcePath": "objects\\oTestDialogLoudly\\oTestDialogLoudly.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f42f2657-4889-4569-aa74-c2190ae1eee2",
             "Value": {
                 "id": "43419e66-1047-4d50-846f-7bdfa6c08b82",
@@ -325,7 +357,8 @@
         "bdf6bf4d-2e57-44bd-ba03-8a2d07095e3a",
         "a85e2f63-112b-4eab-9b48-fb438fac53bc",
         "9c0eb4f3-d387-4140-842a-b7e0fe931410",
-        "aedc6218-c6b0-450f-86ec-74e15e5fb185"
+        "aedc6218-c6b0-450f-86ec-74e15e5fb185",
+        "3209fefd-849f-45d3-b4d8-d2daaffd80f7"
     ],
     "tutorial": ""
 }
