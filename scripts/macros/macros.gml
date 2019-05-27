@@ -17,9 +17,15 @@
 #macro BRANCH1_Y2 440
 
 #macro BRANCH2_X1 250
-#macro BRANCH2_Y1 510
+#macro BRANCH2_Y1 460
 #macro BRANCH2_X2 700
-#macro BRANCH2_Y2 540
+#macro BRANCH2_Y2 490
+
+//This will only be used for three branch dialogs
+#macro BRANCH3_X1 250
+#macro BRANCH3_Y1 510
+#macro BRANCH3_X2 700
+#macro BRANCH3_Y2 540
 
 //Information stored for each tile in the map (Sprite and Z height)
 enum TILE

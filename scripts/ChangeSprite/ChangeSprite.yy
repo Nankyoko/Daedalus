@@ -1,8 +1,8 @@
 {
-    "id": "9c0eb4f3-d387-4140-842a-b7e0fe931410",
+    "id": "98a12bed-eee5-4d49-967b-4a59cdb2c680",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "GetSelectedTile",
+    "name": "ChangeSprite",
     "IsCompatibility": false,
     "IsDnD": false
 }

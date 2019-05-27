@@ -11,4 +11,9 @@ if(mouse_x > BRANCH1_X1 && mouse_x < BRANCH1_X2 && visible) {
 		oTestDialogLoudly.visible = true;
 		visible = false;
 	}
+	
+	if(mouse_y > BRANCH3_Y1 && mouse_y < BRANCH3_Y2) {
+		oTestDialogSuicide.visible = true;
+		visible = false;
+	}
 }

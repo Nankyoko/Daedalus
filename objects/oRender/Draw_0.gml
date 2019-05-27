@@ -1,5 +1,5 @@
 /// @description Render game
-var tileData, roomX, roomY, tileIndex, tileZ, firstTile;
+var tileData, roomX, roomY, tileIndex, tileZ;
 
 //Render each tile in column order
 for (var tX = 0; tX < MAP_W; tX++)

@@ -1,8 +1,8 @@
 {
-    "id": "a85e2f63-112b-4eab-9b48-fb438fac53bc",
+    "id": "ad51af05-8ddc-4a33-84df-e48310202136",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SelectFirstTile",
+    "name": "ThreeChoiceBranch",
     "IsCompatibility": false,
     "IsDnD": false
 }

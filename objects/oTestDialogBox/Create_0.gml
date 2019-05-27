@@ -6,6 +6,5 @@ ds_list_add(script, "Why are there only 5 places I can stand?");
 ds_list_add(script, "Is.. is this hell?");
 ds_list_add(script, "What did I do to deserve this?");
 
-
 currentString = script[| 0];
 visible = true;

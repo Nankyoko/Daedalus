@@ -1,1 +1,1 @@
-TwoChoiceBranch("Gwen cries softly", "Gwen cries loudly");
+ThreeChoiceBranch("Gwen cries softly", "Gwen cries loudly", "Gwen commits suicide");
