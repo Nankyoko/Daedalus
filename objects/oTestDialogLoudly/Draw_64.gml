@@ -4,7 +4,7 @@
 UIRectangle(sTestUIRectangle, 150, 600, 800, 700);
 
 //The sprite to be drawn on the left side
-draw_sprite(sStiffGwen,0,175,625);
+ChangeSprite(currentSprite);
 
 //Font color and dynamic string
 //Determined by the script list and advanced by the space key press event

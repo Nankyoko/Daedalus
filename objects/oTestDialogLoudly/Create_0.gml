@@ -7,4 +7,5 @@ ds_list_add(script, "Narrator: Wow, she really is just gunna cry this out?");
 
 
 currentString = script[| 0];
+currentSprite = "Gwen";
 visible = false;

@@ -7,4 +7,5 @@ ds_list_add(script, "Is.. is this hell?");
 ds_list_add(script, "What did I do to deserve this?");
 
 currentString = script[| 0];
+currentSprite = "Gwen"
 visible = true;

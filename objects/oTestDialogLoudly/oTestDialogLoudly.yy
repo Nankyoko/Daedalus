@@ -93,6 +93,20 @@
             "value": "0",
             "varName": "script",
             "varType": 6
+        },
+        {
+            "id": "d4da89d2-df5a-4bf4-b29b-9f774af7ac2c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "currentSprite",
+            "varType": 2
         }
     ],
     "solid": false,

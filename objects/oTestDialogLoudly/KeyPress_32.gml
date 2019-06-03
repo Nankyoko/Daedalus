@@ -8,7 +8,7 @@ if(visible) {
 		position += 1;
 		currentString = script[| position];
 	} else {
-		oTestTwoBranch.visible = true;
+		oTestThreeBranch.visible = true;
 		visible = false;
 		ds_list_destroy(script);
 	}
