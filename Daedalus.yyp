@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "123f8efa-63e0-40ab-8b62-7b038a546e6a",
+            "Value": {
+                "id": "08e0d81d-d602-40ab-839a-90f001a64cd4",
+                "resourcePath": "objects\\oEmptyDialog\\oEmptyDialog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1891a318-9167-45bd-be47-13a6bb3e9eae",
             "Value": {
                 "id": "48a13576-32b1-4812-bd8c-9d37b0d6a062",
@@ -308,6 +316,14 @@
                 "id": "59c8d239-49ec-40d9-8ab5-498f65be0e7e",
                 "resourcePath": "scripts\\UIRectangle\\UIRectangle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b170fd87-de23-40b1-8d0f-097074550896",
+            "Value": {
+                "id": "3f3d6a8d-cddf-4023-ac54-1ac035e45575",
+                "resourcePath": "views\\b170fd87-de23-40b1-8d0f-097074550896.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
