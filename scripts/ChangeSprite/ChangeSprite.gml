@@ -2,6 +2,7 @@
 
 //This is the code to set the algorithm for getting sprites from "sStiffSprites" for dialog boxes
 var character = argument0;
+var face = argument1;
 var spriteNumber = 0;
 
 //Currently different faces aren't implemented so it's commented out
@@ -27,6 +28,10 @@ if(character = "Gwen" || character = "gwen") {
 	spriteNumber = 0;
 } else if (character = "John" || character = "john") {
 	spriteNumber = 1;
+}
+
+if(face = "happy" || face = "Happy") {
+	spriteNumber += 0;	
 }
 
 draw_sprite(sStiffSprites,spriteNumber,175,625)

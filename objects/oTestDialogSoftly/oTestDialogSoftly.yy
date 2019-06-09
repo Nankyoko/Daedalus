@@ -107,6 +107,20 @@
             "value": "0",
             "varName": "currentSprite",
             "varType": 2
+        },
+        {
+            "id": "f65985be-aced-45ca-9756-54a2a8e21b77",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "currentFace",
+            "varType": 0
         }
     ],
     "solid": false,

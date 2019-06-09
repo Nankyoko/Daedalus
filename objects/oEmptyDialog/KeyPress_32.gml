@@ -11,7 +11,9 @@ if(visible) {
 		//Insert sprite switching code from converter here
 		
 	} else {
-		oTestThreeBranch.visible = true;
+		
+		//events that should happen after the dialog is completed get put here
+		
 		visible = false;
 		ds_list_destroy(script);
 	}

@@ -8,5 +8,6 @@ ds_list_add(script, "No, its me, John!");
 ds_list_add(script, "Oh, lets tongue wrestle like two lesbians covered in oil!");
 
 currentSprite = "Gwen";
+currentFace = "Happy";
 currentString = script[| 0];
 visible = false;

@@ -8,4 +8,5 @@ ds_list_add(script, "There has to be a way off I just know it");
 
 currentString = script[| 0];
 currentSprite = "Gwen";
+currentFace = "Happy";
 visible = false;
