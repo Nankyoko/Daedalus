@@ -1,6 +1,6 @@
 package bo;
 
-import java.util.LinkedList;
+import java.util.Iterator;
 
 import javax.swing.JOptionPane;
 
@@ -11,7 +11,7 @@ public class ScriptConverter {
 	private ScriptWriter writer;
 	private boolean readerSet, writerSet;
 	
-	private LinkedList<String[]> script;
+	private ScriptList script;
 	
 	public ScriptConverter() {
 		readerSet = false;
@@ -38,10 +38,21 @@ public class ScriptConverter {
 		writerSet = false;
 	}
 	
+	public ScriptList getScript() {
+		return script;
+	}
+	
 	public void convertScript() {
 		if(readerSet && writerSet) {
-			script = reader.readScript();
-			String firstChar = script.get(0)[0];
+			String[] textScript = new String[script.size()];
+			String[] line;
+			int i = 0;
+			Iterator<String[]> iter = script.iterator();
+			while(iter.hasNext()) {
+				line = iter.next();
+				textScript[i] = line[2];
+				i++;
+			}
 			
 		} else {
 			JOptionPane.showMessageDialog(null, "You have to set both files before converting");

@@ -4,9 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.LinkedList;
 
 import javax.swing.JOptionPane;
+
+import bo.ScriptList;
 
 /**
  * Reads Scripts for the Daedalus game, prepping them to be converted into Game Maker Studio 2 code
@@ -14,7 +15,6 @@ import javax.swing.JOptionPane;
  */
 public class ScriptReader {
 	private BufferedReader reader;
-	
 	/**
 	 * Reads files with the format Character:Face:Dialog and converts them into a linked list of arrays to be converted into Game Maker Studio 2 code
 	 * @param filename The file to be read, hopefully passed in by GUI if I can remember how to do that
@@ -40,8 +40,7 @@ public class ScriptReader {
 	 * CharacterFaceDialog
 	 * @return a linked list of all the divided up strings [Character][Face][Dialog]
 	 */
-	public LinkedList<String[]> readScript() {
-		LinkedList<String[]> script = new LinkedList<String[]>();
+	public void readScript(ScriptList list) {
 		String[] line = new String[3];
 		String[] raw;
 		try {
@@ -57,12 +56,11 @@ public class ScriptReader {
 						line[2] += ":" + raw[i];
 					}
 				}
-				script.add(line);
+				list.addLine(line);
 			}
 			reader.close();
 		} catch (IOException e) {
 			JOptionPane.showMessageDialog(null, "File was not read correctly, please ensure it is in the correct format");
 		}
-		return script;
 	}
 }
