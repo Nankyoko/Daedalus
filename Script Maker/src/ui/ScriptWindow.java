@@ -69,6 +69,8 @@ public class ScriptWindow extends JFrame {
 				fileSelect.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				int select = fileSelect.showSaveDialog(null);
 				if(select == JFileChooser.APPROVE_OPTION) {
+					
+					//Selects a random number between 1 and 1000 to write in the filename, hopefully minimizing the chance of overwriting a file
 					String selectedFile = fileSelect.getSelectedFile().getAbsolutePath() + "\\DaedalusScript" + Math.floor(Math.random()*1000) + ".txt";
 					scriptCon.setWriter(selectedFile);
 					writeLabel.setText(selectedFile);

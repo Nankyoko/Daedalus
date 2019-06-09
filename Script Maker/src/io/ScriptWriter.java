@@ -29,13 +29,24 @@ public class ScriptWriter {
 		String firstFace = list.getLine(0)[1];
 		try {
 			
-			writer.write("Copy this to the create section of the dialog object in Game Maker 2\n\n");
+			writer.write("Copy this to the create section of the dialog object in Game Maker 2");
+			writer.newLine();
+			writer.newLine();
 			
 			while(iter.hasNext()) {
-				writer.write("ds_list_add(script, \"" + iter.next()[2] + "\");\n");	
+				writer.write("ds_list_add(script, \"" + iter.next()[2] + "\");");
+				writer.newLine();
 			}
 			
-			writer.write("\ncurrentSprite = \"" + firstChar + "\", \"" + firstFace + "\");");
+			writer.newLine();
+			writer.write("currentSprite = \"" + firstChar + "\";");
+			writer.newLine();
+			writer.write("currentFace = \"" + firstFace + "\";");
+			writer.newLine();
+			writer.newLine();
+			writer.write("Copy this section to the space bar event in the dialog object");
+			writer.newLine();
+			writer.newLine();
 			
 		} catch (IOException e) {
 			JOptionPane.showMessageDialog(null, "Error writing lines");
@@ -44,8 +55,6 @@ public class ScriptWriter {
 	
 	public void writeSpriteSwitch(ScriptList list) {
 		Iterator<String[]> iter = list.iterator();
-		String[] line;
-		String[] characterLine = new String[2];
 		
 		//Populates 2 parallel linked lists
 		//This is a really obscure data structure and if you're looking for notes on it, they're on the back of Floren and Aradicia's character sheets,
@@ -56,14 +65,17 @@ public class ScriptWriter {
 		boolean wasFound = false;
 		
 		while(iter.hasNext()) {
+			String[] line;
+			String[] characterLine = new String[2];
 			line = iter.next();
 			characterLine[0] = line[0];
 			characterLine[1] = line[1];
 			
 			//Search the current sprite list for a matching sprite
+			//This forces the Character and Face to be the same otherwise no match
 			for(int j = 0; j<character.size(); j++) {
 				if(character.get(j)[0].equals(characterLine[0]) && character.get(j)[1].equals(characterLine[1])) {
-					spriteLocation.get(j).add(i);
+					spriteLocation.get(j).add(i++);
 					wasFound = true;
 					break;
 				}
@@ -72,20 +84,48 @@ public class ScriptWriter {
 			//If it was not found in the list already, add it
 			if(!wasFound) {
 				LinkedList<Integer> newList = new LinkedList<Integer>();
-				newList.add(i);
+				newList.add(i++);
 				character.add(characterLine);
 				spriteLocation.add(newList);
-				wasFound = false;
 			}
+			
+			wasFound = false;
 		}
 		
 		
 		//Converts the 2 lists into a bunch of Game Maker Studio 2 code
-		String[] orStatementSwitch = new String[character.size()];
 		Iterator<String[]> writeIter = character.iterator();
 		int k = 0;
+		String[] nameFace;
+		
+		//Loops over every character/face combo in the script
 		while(writeIter.hasNext()) {
-			
+			LinkedList<Integer> row;
+			try {
+				//Some variables for optimization, limiting the number of times that link lists have to be searched
+				nameFace = writeIter.next();
+				row = spriteLocation.get(k++);
+
+				//Actually write the code
+				writer.write("if(");
+				for(int l = 0; l < row.size(); l++) {
+					if(l == 0) {
+						writer.write("position = " + row.get(l));
+					} else {
+						writer.write(" || position = " + row.get(l));
+					}
+				}
+				writer.write(") {");
+				writer.newLine();
+				writer.write("    currentSprite = \"" + nameFace[0] + "\";");
+				writer.newLine();
+				writer.write("    currentFace = \"" + nameFace[1] + "\";");
+				writer.newLine();
+				writer.write("}");
+			} catch (IOException e) {
+				JOptionPane.showMessageDialog(null, "Error writing to file");
+				e.printStackTrace();
+			}
 		}
 	}
 	

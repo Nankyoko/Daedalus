@@ -1,7 +1,5 @@
 package bo;
 
-import java.util.Iterator;
-
 import javax.swing.JOptionPane;
 
 import io.*;
@@ -16,6 +14,7 @@ public class ScriptConverter {
 	public ScriptConverter() {
 		readerSet = false;
 		writerSet = false;
+		script = new ScriptList();
 	}
 	
 	public void setReader(String filename) {
@@ -44,16 +43,10 @@ public class ScriptConverter {
 	
 	public void convertScript() {
 		if(readerSet && writerSet) {
-			String[] textScript = new String[script.size()];
-			String[] line;
-			int i = 0;
-			Iterator<String[]> iter = script.iterator();
-			while(iter.hasNext()) {
-				line = iter.next();
-				textScript[i] = line[2];
-				i++;
-			}
-			
+			reader.readScript(script);
+			writer.writeText(script);
+			writer.writeSpriteSwitch(script);
+			JOptionPane.showMessageDialog(null, "Script successfully converted!");
 		} else {
 			JOptionPane.showMessageDialog(null, "You have to set both files before converting");
 		}

@@ -41,10 +41,11 @@ public class ScriptReader {
 	 * @return a linked list of all the divided up strings [Character][Face][Dialog]
 	 */
 	public void readScript(ScriptList list) {
-		String[] line = new String[3];
-		String[] raw;
+		
 		try {
 			while(reader.ready()) {
+				String[] line = new String[3];
+				String[] raw;
 				raw = reader.readLine().split(":");
 				line[0] = raw[0];
 				line[1] = raw[1];
