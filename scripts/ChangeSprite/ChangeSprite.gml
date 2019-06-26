@@ -33,5 +33,5 @@ if(character = "Gwen" || character = "gwen") {
 if(face = "happy" || face = "Happy") {
 	spriteNumber += 0;	
 }
-
-draw_sprite(sStiffSprites,spriteNumber,175,625)
+ 
+return spriteNumber;
