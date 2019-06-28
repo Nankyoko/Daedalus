@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "75c455f2-b0c4-4e06-ae37-f59aacd9cb62",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "aa385d43-63d9-42b4-a55f-c355c3aee8ce",
             "Value": {
                 "id": "d6776774-f04e-4d7f-859b-fb2402001bb6",
@@ -404,6 +412,14 @@
                 "id": "972c55ef-ec99-4402-ab63-e9be13416e4f",
                 "resourcePath": "tilesets\\tsHeightTiles\\tsHeightTiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "bb829284-323f-4e93-aa99-1b74e2e202e1",
+            "Value": {
+                "id": "ce8f5af6-d178-4c62-bf5c-967a55b40c4a",
+                "resourcePath": "datafiles_yy\\FCC Rant.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -500,6 +516,14 @@
                 "id": "9b234a81-96bc-484c-ad07-fde3b0f61c6b",
                 "resourcePath": "objects\\oTestDialogLoudly\\oTestDialogLoudly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "08043af6-9e33-44b6-be45-02337065f109",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
