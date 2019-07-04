@@ -1,8 +1,8 @@
 {
-    "id": "af9f75f2-fde9-4b5c-a5d2-0eae61c953ba",
+    "id": "a61f2ea0-6cf6-41d9-84e5-95575b8e9b9a",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "UI45CircleWedge",
+    "name": "UICharBackWheel",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -8,8 +8,8 @@ for (var tX = 0; tX < MAP_W; tX++)
 	{
 		//Populate the data needed to render each tile from each tile
 		tileData = global.theMap[# tX, tY];
-		roomX = TileToScreenX(tX, tY);
-		roomY = TileToScreenY(tX, tY);
+		roomX = TileToScreenX(tX, tY, cameraX, cameraZoom/2);
+		roomY = TileToScreenY(tX, tY, cameraY, cameraZoom/2);
 		tileIndex = tileData[TILE.SPRITE];
 		tileZ = tileData[TILE.Z];
 		
@@ -18,10 +18,13 @@ for (var tX = 0; tX < MAP_W; tX++)
 			
 			//For some reason this logic is backwards, but it works and as long as we do switches instead
 			//actual setting it will be fine.
+			
+			//I'll set your fuckin' mom
 			if(tileData[TILE.SELECTED]) {
 				draw_sprite(sSelectedTiles, tileIndex - 1, roomX, roomY-tileZ);
 			} else {
-				draw_sprite(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ);
+				//draw_sprite(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ);
+				draw_sprite_stretched(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ, 80 * cameraZoom, 80 * cameraZoom)
 			}
 		}
 	}

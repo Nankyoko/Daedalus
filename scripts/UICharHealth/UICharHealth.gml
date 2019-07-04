@@ -1,10 +1,15 @@
+// Displays Sprite and Healthbar for character UI in bottom left
+
 var _maxHP = argument0;
 var _currentHP = argument1;
 
 var _percentHealth = _currentHP / _maxHP;
-var _x2 = 50 + (_percentHealth * 250);
-UIRectangle(sTestUIRectangle, 50, 705, 300, 735);
-UIRectangle(sTestUIRectangleRed, 50, 705, _x2, 735);
 
-draw_text(55, 710, string(_currentHP) + "/" + string(_maxHP));
+//250 is the overall length of the full hitbar (x2 - x1 of the first UI Rectangle)
+//50 should be the same as the x1 value of the other 2 UI rectangles
+var _x2 = 75 + (_percentHealth * 250);
+UIRectangle(sTestUIRectangle, 75, 720, 325, 745);
+UIRectangle(sTestUIRectangleRed, 75, 720, _x2, 745);
+
+draw_text(80, 725, string(_currentHP) + "/" + string(_maxHP));
 //Haley is a thot

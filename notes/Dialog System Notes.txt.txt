@@ -1,2 +1,0 @@
-I believe the dialog system is mostly functional at this point,
-short of an easier way to implement dialog
