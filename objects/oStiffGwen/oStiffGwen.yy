@@ -33,6 +33,56 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "f42f2657-4889-4569-aa74-c2190ae1eee2"
+        },
+        {
+            "id": "6a866da4-5dc7-450c-91f5-a8c40d3f8633",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "f42f2657-4889-4569-aa74-c2190ae1eee2"
+        },
+        {
+            "id": "295538fa-2fcd-497d-9d2f-8623d4bf69fb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 87,
+            "eventtype": 9,
+            "m_owner": "f42f2657-4889-4569-aa74-c2190ae1eee2"
+        },
+        {
+            "id": "aa4c56ee-0c3a-4508-a8b4-fe0123fec5fb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 65,
+            "eventtype": 9,
+            "m_owner": "f42f2657-4889-4569-aa74-c2190ae1eee2"
+        },
+        {
+            "id": "4186394c-a9cf-4072-850d-227bf6074a87",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 83,
+            "eventtype": 9,
+            "m_owner": "f42f2657-4889-4569-aa74-c2190ae1eee2"
+        },
+        {
+            "id": "820201e6-09d6-4328-8a2f-11043e99bbc5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 68,
+            "eventtype": 9,
+            "m_owner": "f42f2657-4889-4569-aa74-c2190ae1eee2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -76,7 +126,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "True",
             "varName": "isSelected",
             "varType": 3
         },
@@ -166,6 +216,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "ae941589-25e7-4061-81c8-9aee8b476d65",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -33,6 +33,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
+        },
+        {
+            "id": "5b4492bf-c8b1-4a18-bc7c-5e8e26a2a341",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
+        },
+        {
+            "id": "94b576a3-44b0-4421-b1a7-d830ff2016c1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 9,
+            "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -90,7 +110,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "oStiffGwen.x",
+            "value": "oStiffJohn.x",
             "varName": "currentTileX",
             "varType": 5
         },
@@ -104,7 +124,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "oStiffGwen.y",
+            "value": "oStiffJohn.y",
             "varName": "currentTileY",
             "varType": 5
         },
@@ -166,6 +186,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "723af1ea-2ef1-4adb-aee2-3ef0ef332f66",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

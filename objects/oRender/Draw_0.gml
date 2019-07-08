@@ -21,7 +21,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 			
 			//I'll set your fuckin' mom
 			if(tileData[TILE.SELECTED]) {
-				draw_sprite(sSelectedTiles, tileIndex - 1, roomX, roomY-tileZ);
+				draw_sprite_stretched(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ, 80 * cameraZoom, 80 * cameraZoom)
 			} else {
 				//draw_sprite(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ);
 				draw_sprite_stretched(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ, 80 * cameraZoom, 80 * cameraZoom)
