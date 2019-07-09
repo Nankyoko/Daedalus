@@ -5,3 +5,5 @@ Right click: Hide UI
 Up/Down/Left/Right Arrow Keys: move camera
 
 Page Up/Page Down: Zoom/Zoom out
+
+W A S D: Move character
