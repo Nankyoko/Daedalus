@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "16111ee2-02b8-4c0e-81d4-6a5cd01c4847",
-            "Value": {
-                "id": "382c7772-db6e-4253-8c5a-1b2dded6fa6b",
-                "resourcePath": "sprites\\sprite10\\sprite10.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1891a318-9167-45bd-be47-13a6bb3e9eae",
             "Value": {
                 "id": "48a13576-32b1-4812-bd8c-9d37b0d6a062",
@@ -283,6 +275,14 @@
             "Value": {
                 "id": "f1f43b22-0877-458f-9a4d-67b4b7c04ebc",
                 "resourcePath": "scripts\\UIEllipse\\UIEllipse.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "934f4501-d603-4248-9514-63b84566abb2",
+            "Value": {
+                "id": "bd0cef9a-fbf1-446d-a6f1-d596ec8a5f36",
+                "resourcePath": "scripts\\UISwapHUDCharacter\\UISwapHUDCharacter.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "f779ac5e-1cad-4746-b74e-1f8e989ad471",
+            "Value": {
+                "id": "b83d53a6-c58b-4668-b2b8-21e4693a7658",
+                "resourcePath": "scripts\\characterHitbox\\characterHitbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7d197c4-40b2-41a5-b56b-0b74c3ac904d",
             "Value": {
                 "id": "c1794aa7-f561-49d9-a5f7-9f46b44c7021",
@@ -609,7 +617,9 @@
         "aedc6218-c6b0-450f-86ec-74e15e5fb185",
         "805cf7a8-9556-443b-8ce8-c27aaddeea80",
         "50971579-37cb-414a-955d-ae62503602c6",
-        "a61f2ea0-6cf6-41d9-84e5-95575b8e9b9a"
+        "a61f2ea0-6cf6-41d9-84e5-95575b8e9b9a",
+        "934f4501-d603-4248-9514-63b84566abb2",
+        "f779ac5e-1cad-4746-b74e-1f8e989ad471"
     ],
     "tutorial": ""
 }

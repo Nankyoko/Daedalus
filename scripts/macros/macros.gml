@@ -3,8 +3,8 @@
 #macro MAP_H 18
 
 //All isometric floor tiles will be 78pixels wide by 25 pixels tall
-#macro TILE_W 76
-#macro TILE_H 25
+#macro TILE_W 74
+#macro TILE_H 26
 
 //All rooms will have pixel dimensions of 1024x768
 #macro ROOM_W 1024
