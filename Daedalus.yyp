@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "59ad3cc4-0ae7-4800-bb8c-96ba776872c5",
+            "Value": {
+                "id": "a821129a-5ac5-4e84-8148-c5fad1c90a28",
+                "resourcePath": "objects\\oPauseMenu\\oPauseMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5c67b194-55d5-489b-a5e1-bafc31d7d430",
             "Value": {
                 "id": "648e9756-c610-403b-bd94-629e59ebd946",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "d3e93a28-7359-4780-89a2-1f8af6cea140",
+            "Value": {
+                "id": "4bc55ee7-bea4-4b67-88c9-fef78fea4855",
+                "resourcePath": "views\\d3e93a28-7359-4780-89a2-1f8af6cea140.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "da23fb36-7af7-4d63-9485-059e2f5d8c23",
             "Value": {
                 "id": "3a662ca7-ddbc-4fd3-bd97-6525e7300295",
@@ -548,6 +564,14 @@
                 "id": "9b234a81-96bc-484c-ad07-fde3b0f61c6b",
                 "resourcePath": "objects\\oTestDialogLoudly\\oTestDialogLoudly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2629a12-b61a-4d5d-b01f-a480325c4d8b",
+            "Value": {
+                "id": "655f54cd-9e8c-45da-85c2-ee126ef48224",
+                "resourcePath": "notes\\Pathing Algorithm.yy",
+                "resourceType": "GMNotes"
             }
         },
         {

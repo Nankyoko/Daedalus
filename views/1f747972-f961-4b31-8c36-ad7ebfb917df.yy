@@ -7,7 +7,7 @@
         "26ee4c17-3fba-4be8-aa61-b556f785e04e"
     ],
     "filterType": "GMObject",
-    "folderName": "CharacterHUD",
+    "folderName": "Character UI",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

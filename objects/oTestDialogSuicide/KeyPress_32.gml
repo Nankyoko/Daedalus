@@ -16,6 +16,5 @@ if(visible) {
 	} else {
 		visible = false;
 		ds_list_destroy(script);
-		game_end(ev_game_end);
 	}
 }
