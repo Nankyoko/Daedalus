@@ -9,6 +9,7 @@ draw_set_color(c_black);
 
 //Edit Map width and height in macros
 global.theMap = ds_grid_create(MAP_W, MAP_H);
+global.characterLocations = ds_grid_create(MAP_W, MAP_H);
 
 //Pulls in the maps to get the individual tile information out of each
 var tileMap = layer_tilemap_get_id("map");
@@ -32,5 +33,6 @@ for (var tX = 0; tX < MAP_W; tX++)
 		//Change the *20 in order to change overall render height
 		thisTile[TILE.Z] = heightMapData*20;
 		global.theMap[# tX, tY] = thisTile;
+		global.characterLocations[# tX, tY] = false;
 	}
 }

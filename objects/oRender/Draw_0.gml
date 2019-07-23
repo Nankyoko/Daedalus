@@ -15,16 +15,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		
 		//As long as its not a blank tile, draw it
 		if(tileIndex !=0) {
-			
-			//For some reason this logic is backwards, but it works and as long as we do switches instead
-			//actual setting it will be fine.
-			
-			//I'll set your fuckin' mom
-			if(tileData[TILE.SELECTED]) {
-				draw_sprite_stretched(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ, 80 * cameraZoom, 80 * cameraZoom)
-			} else {
-				draw_sprite_stretched(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ, 80 * cameraZoom, 80 * cameraZoom)
-			}
+			draw_sprite_stretched(sIsometricTiles, tileIndex - 1, roomX, roomY-tileZ, 80 * cameraZoom, 80 * cameraZoom)
 		}
 	}
 }

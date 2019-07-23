@@ -16,5 +16,4 @@ roomX = TileToScreenX(currentTileX, currentTileY, _cameraX, _cameraZoom/2) + _ca
 roomY = TileToScreenY(currentTileX, currentTileY, _cameraY, _cameraZoom/2) - _cameraZoom * 25;
 
 tileZ = tile[TILE.Z];
-
 draw_sprite_stretched(sStiffGwen, 0, roomX, roomY-tileZ, 40 * _cameraZoom, 75 * _cameraZoom);

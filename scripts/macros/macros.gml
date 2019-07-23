@@ -11,7 +11,7 @@
 #macro ROOM_H 768
 
 //This is the number of frames, out of 60, that each frame of sprite animation will be on
-#macro SPRITE_FPS = 4;
+#macro SPRITE_FPS 4;
 
 //All Branch Boxes will be in these locations
 #macro BRANCH1_X1 250
@@ -35,5 +35,4 @@ enum TILE
 {
 	SPRITE = 0,
 	Z = 1,
-	SELECTED = true
 }
