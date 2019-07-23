@@ -28,6 +28,8 @@ if(character = "Gwen" || character = "gwen") {
 	spriteNumber = 0;
 } else if (character = "John" || character = "john") {
 	spriteNumber = 1;
+} else if (character = "Corwin" || character = "corwin") {
+	spriteNumber = 2;
 }
 
 if(face = "happy" || face = "Happy") {

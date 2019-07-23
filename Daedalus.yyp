@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "8d2e1107-5eed-4e67-917c-53f0d11ce5ca",
+            "Value": {
+                "id": "66973367-7390-4457-bec9-b8d81004874d",
+                "resourcePath": "objects\\oIdleCorwin\\oIdleCorwin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "934f4501-d603-4248-9514-63b84566abb2",
             "Value": {
                 "id": "bd0cef9a-fbf1-446d-a6f1-d596ec8a5f36",
@@ -524,6 +532,14 @@
                 "id": "4bc55ee7-bea4-4b67-88c9-fef78fea4855",
                 "resourcePath": "views\\d3e93a28-7359-4780-89a2-1f8af6cea140.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d65cc66a-aeed-424f-8ad2-6ae1da4c0933",
+            "Value": {
+                "id": "84f11e6d-5035-412a-b0a8-59e476cf3493",
+                "resourcePath": "sprites\\sIdleCorwin\\sIdleCorwin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

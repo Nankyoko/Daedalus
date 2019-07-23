@@ -4,7 +4,7 @@
 layer_set_visible("map", false);
 layer_set_visible("heightmap", false);
 
-//Set some global things, since this will always be created first, so far it only does text color
+//Set some global things, since this will always be created first
 draw_set_color(c_black);
 
 //Edit Map width and height in macros
