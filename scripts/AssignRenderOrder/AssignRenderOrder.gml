@@ -1,8 +1,8 @@
-var charList = argument0;
-var char;
-for(var i = 0; i<ds_list_size(charList); i++) {
-	char = ds_list_find_value(charList, i);
-	with (char) {
-		event_perform(ev_draw_begin, 0);
-	}
+var _charList = argument0;
+var _char;
+
+for(var i = 0; i < ds_list_size(_charList); i++) {
+	_char = ds_list_find_value(_charList, i);
+	
+	_char.depth = i*100;
 }
