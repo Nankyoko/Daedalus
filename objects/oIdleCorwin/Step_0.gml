@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Marks the current location as taken
 global.characterLocations[# currentTileX, currentTileY] = true;

@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "dd65a890-afde-4d61-b014-07017e3eff22",
+            "Value": {
+                "id": "0bebad77-b8eb-4d64-9be4-3c4985b80523",
+                "resourcePath": "scripts\\AssignRenderOrder\\AssignRenderOrder.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e00118c5-daa8-4066-a4c1-04f4db3fb71c",
             "Value": {
                 "id": "a2327601-e972-4066-98f6-76140853c8c0",
@@ -651,6 +659,7 @@
         "1891a318-9167-45bd-be47-13a6bb3e9eae",
         "1e54535a-63ad-4bda-88dc-ab6dc07a608e",
         "bdf6bf4d-2e57-44bd-ba03-8a2d07095e3a",
+        "dd65a890-afde-4d61-b014-07017e3eff22",
         "3209fefd-849f-45d3-b4d8-d2daaffd80f7",
         "ad51af05-8ddc-4a33-84df-e48310202136",
         "98a12bed-eee5-4d49-967b-4a59cdb2c680",

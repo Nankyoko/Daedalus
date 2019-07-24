@@ -5,3 +5,5 @@ hitRange = hitRange * 40;
 alarm[0] = SPRITE_FPS;
 
 global.characterLocations[# currentTileX, currentTileY] = true;
+
+ds_list_add(global.characterList, oIdleCorwin);
