@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "e08b3d6d-6f36-4061-b6fe-bd01beccd87a",
+            "Value": {
+                "id": "33bde035-d0d8-4d04-b505-4974af5eb1fd",
+                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e235e500-b73a-4dd7-ae3a-e3926e441c1f",
             "Value": {
                 "id": "ad0ce2de-ca66-4d17-92be-fdd7116f7962",
@@ -620,6 +628,14 @@
                 "id": "d7ed6efb-0ab5-4b2a-a630-599f6a29f33a",
                 "resourcePath": "objects\\oTestDialogSuicide\\oTestDialogSuicide.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f6bf2647-fb4e-4e65-847a-ee8111863d16",
+            "Value": {
+                "id": "b1ef87c1-1ee8-497c-8556-a4dc94ab07b8",
+                "resourcePath": "views\\f6bf2647-fb4e-4e65-847a-ee8111863d16.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
