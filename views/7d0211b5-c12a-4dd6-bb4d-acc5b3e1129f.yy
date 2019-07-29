@@ -1,13 +1,13 @@
 {
-    "id": "f6bf2647-fb4e-4e65-847a-ee8111863d16",
+    "id": "7d0211b5-c12a-4dd6-bb4d-acc5b3e1129f",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "f6bf2647-fb4e-4e65-847a-ee8111863d16",
+    "name": "7d0211b5-c12a-4dd6-bb4d-acc5b3e1129f",
     "children": [
         
     ],
     "filterType": "GMSprite",
-    "folderName": "Backgrounds",
+    "folderName": "Character Face Sprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
