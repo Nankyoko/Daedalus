@@ -1,4 +1,4 @@
-if(isSelected) {
+if(isSelected && currentTileX != 0) {
 		var nextTile = global.theMap[# currentTileX - 1, currentTileY];
 		//Only move if there's a tile to move on to
 		if(nextTile[TILE.SPRITE] != 0 && !global.characterLocations[# currentTileX - 1, currentTileY]) {
