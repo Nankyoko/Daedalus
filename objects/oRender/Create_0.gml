@@ -5,10 +5,9 @@ layer_set_visible("map", false);
 layer_set_visible("heightmap", false);
 layer_set_visible("wallmap", false);
 layer_set_visible("wallheightmap", false);
-
+visible = false;
 //Set some global things, since this will always be created first
 draw_set_color(c_black);
-
 //Edit Map width and height in macros
 global.theMap = ds_grid_create(MAP_W, MAP_H);
 global.theWallMap = ds_grid_create(MAP_W, MAP_H);
@@ -45,5 +44,17 @@ for (var tX = 0; tX < MAP_W; tX++)
 		global.theMap[# tX, tY] = thisTile;
 		global.theWallMap[# tX, tY] = thisWallTile;
 		global.characterLocations[# tX, tY] = false;
+		
+		if(thisWallTile[TILE.SPRITE] != 0) {
+			var wall = instance_create_depth(tX, tY, ((tY - 1) + tX) * -100, oWallTile);
+			wall.sprite = thisWallTile[TILE.SPRITE];
+			wall.tZ = thisWallTile[TILE.Z];
+		}
+		
+		if(thisTile[TILE.SPRITE] != 0) {
+			var tile = instance_create_depth(tX, tY, ((tY -.5) + tX) * -100, oFloorTile);
+			tile.sprite = thisTile[TILE.SPRITE];
+			tile.tZ = thisTile[TILE.Z];
+		}
 	}
 }

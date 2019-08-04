@@ -143,6 +143,22 @@
             }
         },
         {
+            "Key": "28e0e9e3-7db8-41f8-9213-02512ecb9e4f",
+            "Value": {
+                "id": "8c5e42cf-9cc9-4a60-b40c-ed720202b7bb",
+                "resourcePath": "views\\28e0e9e3-7db8-41f8-9213-02512ecb9e4f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d976f2a-85e6-40c0-a2cf-f7306df7e912",
+            "Value": {
+                "id": "93214779-4bd7-4d6e-821c-9e62377b27dd",
+                "resourcePath": "objects\\oFloorTile\\oFloorTile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ff8c42e-5687-4318-9e94-821d3f9fd109",
             "Value": {
                 "id": "d75f19e4-d9e1-42e7-8756-3adfcbd67657",
@@ -215,11 +231,11 @@
             }
         },
         {
-            "Key": "4c197b69-fe2d-498e-9d4e-1f75478b4e65",
+            "Key": "4b219167-d7ce-4eda-aa9e-ceaeeb07194d",
             "Value": {
-                "id": "fefb9aec-0516-4cea-9136-e1da57621fc2",
-                "resourcePath": "sprites\\sSelectedTiles\\sSelectedTiles.yy",
-                "resourceType": "GMSprite"
+                "id": "d0c8ebef-d6d3-4022-96b5-ad018f5ceba3",
+                "resourcePath": "objects\\oWallTile\\oWallTile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
