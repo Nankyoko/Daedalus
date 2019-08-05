@@ -38,13 +38,15 @@ for (var tX = 0; tX < MAP_W; tX++)
 		var thisWallTile = [-1, 0];
 		thisWallTile[TILE.SPRITE] = wallMapData;
 		//Renders each tile at its height according to the height map
-		//Change the *20 in order to change overall render height
-		thisTile[TILE.Z] = heightMapData*20;
-		thisWallTile[TILE.Z] = (wallheightMapData*20) - 31;
+		//Change the *26.5 in order to change overall render height
+		thisTile[TILE.Z] = heightMapData*26.5;
+		thisWallTile[TILE.Z] = (wallheightMapData*26.5) - 31;
 		global.theMap[# tX, tY] = thisTile;
 		global.theWallMap[# tX, tY] = thisWallTile;
 		global.characterLocations[# tX, tY] = false;
 		
+		//Look, I'm not happy about having each tile be an object either but they 
+		//basically have no internal processes so its not that awful
 		if(thisWallTile[TILE.SPRITE] != 0) {
 			var wall = instance_create_depth(tX, tY, ((tY - 1) + tX) * -100, oWallTile);
 			wall.sprite = thisWallTile[TILE.SPRITE];
