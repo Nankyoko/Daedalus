@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1b739648-401f-44c4-b494-3f767be0d625",
+            "Value": {
+                "id": "df17f4f2-463d-47c2-bad4-92a00de3cc3d",
+                "resourcePath": "objects\\oButtons\\oButtons.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e0039b6-0360-49f9-91b3-ea9ae88d2ebb",
             "Value": {
                 "id": "d89eb18f-1b96-482e-824f-aa84c998386a",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "5dc65b6e-e4a5-47c9-968f-80069ae234e4",
+            "Value": {
+                "id": "5f530dc2-f406-479c-8c9c-a9239cb55b8f",
+                "resourcePath": "views\\5dc65b6e-e4a5-47c9-968f-80069ae234e4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5f7f7f16-33de-4eb3-bf81-ce0a13065136",
             "Value": {
                 "id": "698c0765-c093-4ef1-9c6e-c0a153295e5a",
@@ -396,6 +412,14 @@
                 "id": "e7852f71-64a7-406b-b912-a7231e256381",
                 "resourcePath": "scripts\\UICharBackWheel\\UICharBackWheel.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a6e92c20-c3ba-4b61-8597-ef87797f00b5",
+            "Value": {
+                "id": "d516f6d4-2eaf-4442-a032-36c482e5c059",
+                "resourcePath": "sprites\\sTestUICircleEmpty\\sTestUICircleEmpty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
