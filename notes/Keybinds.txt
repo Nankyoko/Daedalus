@@ -10,3 +10,5 @@ Page Up/Page Down: Zoom/Zoom out
 W A S D: Move character
 
 Escape: Opens the pause menu
+
+Q: X-ray mode
