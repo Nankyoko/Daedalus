@@ -135,6 +135,20 @@
             "value": "0",
             "varName": "roomY",
             "varType": 1
+        },
+        {
+            "id": "bb5822a9-5758-4165-9a4e-7fb0e54abe2d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "roomZ",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -50,13 +50,15 @@ for (var tX = 0; tX < MAP_W; tX++)
 		if(thisWallTile[TILE.SPRITE] != 0) {
 			var wall = instance_create_depth(tX, tY, ((tY - 1) + tX) * -100, oWallTile);
 			wall.sprite = thisWallTile[TILE.SPRITE];
-			wall.tZ = thisWallTile[TILE.Z];
+			wall.roomZ = thisWallTile[TILE.Z];
+			wall.tZ = heightMapData;
 		}
 		
 		if(thisTile[TILE.SPRITE] != 0) {
 			var tile = instance_create_depth(tX, tY, ((tY -.5) + tX) * -100, oFloorTile);
 			tile.sprite = thisTile[TILE.SPRITE];
-			tile.tZ = thisTile[TILE.Z];
+			tile.roomZ = thisTile[TILE.Z];
+			tile.tZ = heightMapData;
 		}
 	}
 }

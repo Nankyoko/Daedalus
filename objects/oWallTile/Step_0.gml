@@ -3,9 +3,9 @@
 roomX = TileToScreenX(tX, tY, oRender.cameraX, oRender.cameraZoom/2);
 roomY = TileToScreenY(tX, tY, oRender.cameraY, oRender.cameraZoom/2);
 
-if(oButtons.xrayMode) {
+if(oButtons.xrayMode && tZ > 2) {
 	if(mouse_x > roomX - 50 && mouse_x < roomX + (80*oRender.cameraZoom) + 50) {
-		if(mouse_y > roomY - tZ - 50 && mouse_y < (roomY-tZ) + (80*oRender.cameraZoom) + 50) {
+		if(mouse_y > roomY - tZ - 50 && mouse_y < (roomY-roomZ) + (80*oRender.cameraZoom) + 50) {
 			visible = false;
 		} else {
 			visible = true;
