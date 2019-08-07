@@ -2,9 +2,9 @@
 
 //X-Ray mode
 if(!xrayMode) {
-	UIRectangle(sTestUIRectangle, 900, 700, 1000, 725);
+	UIRectangle(sTestUIRectangle, 1800, 900, 1900, 925);
 } else {
-	UIRectangle(sTestUIRectangleRed, 900, 700, 1000, 725);
+	UIRectangle(sTestUIRectangleRed, 1800, 900, 1900, 925);
 	UIEllipse(sTestUICircleEmpty, mouse_x-75, mouse_y-75, mouse_x+75, mouse_y+75);
 }
-draw_text(907, 705, "X-Ray Mode");
+draw_text(1807, 905, "X-Ray Mode");

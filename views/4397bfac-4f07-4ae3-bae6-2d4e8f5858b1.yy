@@ -8,7 +8,8 @@
         "d1bb628e-8920-4ae7-96eb-da25e1551719",
         "0e4c9131-27d8-4c3b-b8a4-84702828c275",
         "a1826bff-e01c-4b51-861a-608e5fa4adb9",
-        "b10d5c7b-0ccf-465e-987a-ef0e3d127eb6"
+        "b10d5c7b-0ccf-465e-987a-ef0e3d127eb6",
+        "71a17435-4e61-408d-aecf-d9da4719c754"
     ],
     "filterType": "GMSprite",
     "folderName": "Floor Tile Sprites",
