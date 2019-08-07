@@ -1,14 +1,14 @@
 //All maps will be 24 tiles wide and 18 tiles tall
-#macro MAP_W 24
-#macro MAP_H 18
+#macro MAP_W 48
+#macro MAP_H 41
 
 //All isometric floor tiles will be 78pixels wide by 25 pixels tall
 #macro TILE_W 74
 #macro TILE_H 26
 
 //All rooms will have pixel dimensions of 1024x768
-#macro ROOM_W 1024
-#macro ROOM_H 768
+#macro ROOM_W 1920
+#macro ROOM_H 1080
 
 //This is the number of frames, out of 60, that each frame of sprite animation will be on
 #macro SPRITE_FPS 4;

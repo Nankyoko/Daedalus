@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "f03b43b3-022c-499a-914f-a335fcb92a23",
+            "Value": {
+                "id": "94fd2b27-0542-4cdf-b060-a7c959713180",
+                "resourcePath": "rooms\\sewerMap\\sewerMap.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f2030887-986d-408c-984e-c1caec0e408d",
             "Value": {
                 "id": "9b234a81-96bc-484c-ad07-fde3b0f61c6b",
