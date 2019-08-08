@@ -1,6 +1,6 @@
 //All maps will be 24 tiles wide and 18 tiles tall
-#macro MAP_W 48
-#macro MAP_H 41
+#macro MAP_W 47
+#macro MAP_H 27
 
 //All isometric floor tiles will be 78pixels wide by 25 pixels tall
 #macro TILE_W 74
