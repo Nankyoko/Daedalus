@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "2ed93429-314d-4d98-8cb8-4a0e142c1e9b",
+            "Value": {
+                "id": "89bc50d7-001b-470d-bb33-669ee8e7d58d",
+                "resourcePath": "sprites\\sGayBackground\\sGayBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ff8c42e-5687-4318-9e94-821d3f9fd109",
             "Value": {
                 "id": "d75f19e4-d9e1-42e7-8756-3adfcbd67657",
@@ -183,19 +191,19 @@
             }
         },
         {
-            "Key": "30f96dc7-0f2e-47c2-a84b-914869764b4c",
-            "Value": {
-                "id": "2a8f62eb-1f0a-4284-b55b-49952c89b589",
-                "resourcePath": "rooms\\heightRoomTest\\heightRoomTest.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "3209fefd-849f-45d3-b4d8-d2daaffd80f7",
             "Value": {
                 "id": "439cff18-ff3e-48c4-8d84-568919f11e95",
                 "resourcePath": "scripts\\TwoChoiceBranch\\TwoChoiceBranch.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "33aa7616-624d-4fca-a489-044a7db002a8",
+            "Value": {
+                "id": "4308468d-eb07-4c31-ba71-bae11071e86b",
+                "resourcePath": "fonts\\Felix\\Felix.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -236,6 +244,14 @@
                 "id": "8431e2ca-dff0-412c-a781-ae335e70e7a9",
                 "resourcePath": "views\\4397bfac-4f07-4ae3-bae6-2d4e8f5858b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46e4023e-a396-4ab9-9cd2-26137f0e7e51",
+            "Value": {
+                "id": "80868a70-2e1b-4d7d-830e-fb14dbfb8a8d",
+                "resourcePath": "rooms\\testMenuRoom\\testMenuRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -300,6 +316,14 @@
                 "id": "698c0765-c093-4ef1-9c6e-c0a153295e5a",
                 "resourcePath": "views\\5f7f7f16-33de-4eb3-bf81-ce0a13065136.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61716f5b-8c33-4704-bea8-3302b4543474",
+            "Value": {
+                "id": "b30bf0ab-2bf0-4815-9990-62dd6f93c24d",
+                "resourcePath": "objects\\oOptionsMenu\\oOptionsMenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -372,14 +396,6 @@
                 "id": "59de210e-4e48-4d0b-b554-47c656fb1893",
                 "resourcePath": "scripts\\ChangeSprite\\ChangeSprite.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9a48899b-9d8e-47cd-b4de-e02c18bdf52a",
-            "Value": {
-                "id": "4be9169d-f054-4dea-9c13-6198bc58a5ec",
-                "resourcePath": "rooms\\testRoom\\testRoom.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -535,6 +551,14 @@
             }
         },
         {
+            "Key": "bb11762b-f526-4e7f-a912-87699dc653f8",
+            "Value": {
+                "id": "3a89f098-4c6c-4f07-84b1-9c93f86442ea",
+                "resourcePath": "objects\\titleMenu\\titleMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb829284-323f-4e93-aa99-1b74e2e202e1",
             "Value": {
                 "id": "ce8f5af6-d178-4c62-bf5c-967a55b40c4a",
@@ -548,6 +572,14 @@
                 "id": "8665532d-7611-4701-bd8f-841a583b4355",
                 "resourcePath": "scripts\\TileToScreenY\\TileToScreenY.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bf849702-9cc8-4014-a3d9-bdb84a295017",
+            "Value": {
+                "id": "a659d8c3-c4b2-44a7-996c-b7467b360fe1",
+                "resourcePath": "views\\bf849702-9cc8-4014-a3d9-bdb84a295017.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

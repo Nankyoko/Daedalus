@@ -8,7 +8,7 @@ if(visible && !quitPressed && !restartPressed) {
 		}
 		//Retreat
 		if(mouse_x > 470 && mouse_x < 554) {
-			show_debug_message("Not yet implemented");	
+			room_goto(testMenuRoom);	
 		}
 		//Quit
 		if(mouse_x > 599 && mouse_x < 674){
