@@ -202,7 +202,7 @@
             "Key": "33aa7616-624d-4fca-a489-044a7db002a8",
             "Value": {
                 "id": "4308468d-eb07-4c31-ba71-bae11071e86b",
-                "resourcePath": "fonts\\Felix\\Felix.yy",
+                "resourcePath": "fonts\\Razer\\Razer.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -572,6 +572,14 @@
                 "id": "8665532d-7611-4701-bd8f-841a583b4355",
                 "resourcePath": "scripts\\TileToScreenY\\TileToScreenY.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bee222db-8e3e-4ae1-b35b-2b39ff0748c9",
+            "Value": {
+                "id": "dfaad52c-9bbf-4f0a-8f42-47107670cc1a",
+                "resourcePath": "fonts\\RazerBig\\RazerBig.yy",
+                "resourceType": "GMFont"
             }
         },
         {
