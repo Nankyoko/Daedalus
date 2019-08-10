@@ -12,6 +12,9 @@ draw_text(481, 405, "Retreat");
 UIRectangle(sTestUIRectangleRed, 599, 400, 674, 426);
 draw_text(620, 405, "Quit");
 
+UIRectangle(sTestUIRectangle, 700, 400, 800, 426);
+draw_text(660, 405, "Options");
+
 //Draw the confirmation meowssage for quitting
 if(quitPressed) {
 	UIRectangle(sTestUIRectangle, 450, 325, 600, 450);

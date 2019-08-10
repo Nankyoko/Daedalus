@@ -1,4 +1,6 @@
-//All maps will be 24 tiles wide and 18 tiles tall
+
+
+//All maps will be 47 tiles wide and 27 tiles tall
 #macro MAP_W 47
 #macro MAP_H 27
 
@@ -11,7 +13,7 @@
 #macro ROOM_H 1080
 
 //This is the number of frames, out of 60, that each frame of sprite animation will be on
-#macro SPRITE_FPS 4;
+#macro SPRITE_FPS 4
 
 //All Branch Boxes will be in these locations
 #macro BRANCH1_X1 250

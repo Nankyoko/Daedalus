@@ -89,6 +89,20 @@
             "value": "0",
             "varName": "lockout",
             "varType": 1
+        },
+        {
+            "id": "12717c23-cafa-426a-8902-cd3555c91af7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "animationSpeed",
+            "varType": 1
         }
     ],
     "solid": false,

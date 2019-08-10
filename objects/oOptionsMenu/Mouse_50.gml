@@ -11,7 +11,27 @@ if(visible && lockout == 0) {
 				lockout = 10;
 			}
 		}
+		
+		//Animation Speeds
+		if(mouse_y > 425 && mouse_y < 450) {
+			if(mouse_x > 605 && mouse_x < 705) {
+				animationSpeed = 0;
+			}
+			if(mouse_x > 715 && mouse_x < 815) {
+				animationSpeed = 2;
+			}
+			if(mouse_x > 825 && mouse_x < 925) {
+				animationSpeed = 3;
+			}
+			lockout = 10;
+		}
 	} else {
 		visible = false;
+	}
+	
+	//Close
+	if(mouse_x > 1200 && mouse_x < 1300 && mouse_y > 740 && mouse_y < 765) {
+		visible = false;
+		lockout = 10;
 	}
 }

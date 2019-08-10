@@ -1,6 +1,6 @@
 /// @description Controls clicking on the UI elements
 
-if(visible && !quitPressed && !restartPressed) {
+if(visible && !quitPressed && !restartPressed && !oOptionsMenu.visible) {
 	if(mouse_y > 400 && mouse_y < 426) {
 		//Restart
 		if(mouse_x > 350 && mouse_x < 425) {
@@ -13,6 +13,10 @@ if(visible && !quitPressed && !restartPressed) {
 		//Quit
 		if(mouse_x > 599 && mouse_x < 674){
 			quitPressed = true;
+		}
+		
+		if(mouse_x > 700 && mouse_x < 800) {
+			oOptionsMenu.visible = true;	
 		}
 	}
 }
