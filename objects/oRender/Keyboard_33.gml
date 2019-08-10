@@ -1,4 +1,5 @@
 /// @description ZOOOOOOOOOOOOOOOOM
-
-cameraY -= .02;
-cameraZoom += .05;
+if(cameraZoom < 3) {
+	cameraY -= .02;
+	cameraZoom += .05;
+}

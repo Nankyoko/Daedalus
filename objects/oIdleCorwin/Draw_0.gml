@@ -18,4 +18,4 @@ tileZ = tile[TILE.Z];
 if(frameNumber = 13) {
 	frameNumber = 0;	
 }
-draw_sprite_stretched(sIdleCorwin, frameNumber, roomX, roomY-tileZ, 40 * _cameraZoom, 75 * _cameraZoom);
+draw_sprite_stretched(sIdleCorwin, frameNumber, roomX, roomY-(tileZ*oRender.cameraZoom), 40 * _cameraZoom, 75 * _cameraZoom);
