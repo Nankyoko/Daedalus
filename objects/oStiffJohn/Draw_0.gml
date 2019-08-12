@@ -16,4 +16,4 @@ roomY = TileToScreenY(currentTileX, currentTileY, _cameraY, _cameraZoom/2) - _ca
 
 tileZ = tile[TILE.Z];
 
-draw_sprite_stretched(sStiffJohn, 0, roomX, roomY-(tileZ*oRender.cameraZoom), 40 * _cameraZoom, 75 * _cameraZoom);
+draw_sprite_stretched(sStiffJohn, 0, roomX, roomY-(tileZ*_cameraZoom), 40 * _cameraZoom, 75 * _cameraZoom);
