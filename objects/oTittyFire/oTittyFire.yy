@@ -82,7 +82,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "oTittyFire.x",
+            "value": "0",
             "varName": "currentTileX",
             "varType": 1
         },
@@ -96,7 +96,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "oTittyFire.y",
+            "value": "0",
             "varName": "currentTileY",
             "varType": 1
         },

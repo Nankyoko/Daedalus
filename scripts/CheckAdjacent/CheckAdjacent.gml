@@ -1,8 +1,7 @@
 //Checks the immediate 8 squares around whoever calls this.
-var char = argument0;
 
-var _X = char.currentTileX;
-var _Y = char.currentTileY;
+var _X = argument0;
+var _Y = argument1;
 
 var _n, _s, _e, _w, _ne, _nw, _se, _sw;
 
