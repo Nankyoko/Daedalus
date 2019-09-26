@@ -11,9 +11,11 @@ draw_set_color(c_black);
 //Edit Map width and height in macros
 global.theMap = ds_grid_create(MAP_W, MAP_H);
 global.theWallMap = ds_grid_create(MAP_W, MAP_H);
+
+//the list of occupied locations and the list of things occupying them
 global.characterLocations = ds_grid_create(MAP_W, MAP_H);
 global.characterList = ds_list_create();
-
+global.objectList = ds_list_create();
 //Pulls in the maps to get the individual tile information out of each
 var tileMap = layer_tilemap_get_id("map");
 var heightMap = layer_tilemap_get_id("heightmap");

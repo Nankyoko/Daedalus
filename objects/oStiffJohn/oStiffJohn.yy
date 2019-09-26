@@ -213,6 +213,20 @@
             "value": "John",
             "varName": "name",
             "varType": 2
+        },
+        {
+            "id": "4e7ca58a-9e62-4096-9449-5b9778b01a95",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "interactable",
+            "varType": 3
         }
     ],
     "solid": false,

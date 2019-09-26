@@ -237,6 +237,20 @@
             "value": "0",
             "varName": "frameNumber",
             "varType": 1
+        },
+        {
+            "id": "121d5bc4-25e8-486d-bb72-82f04fa91586",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "interactable",
+            "varType": 3
         }
     ],
     "solid": false,

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "072e5af8-6e9a-424e-bf24-e084ce9e3aa1",
+            "Value": {
+                "id": "f10f7822-62ad-4417-b43a-c6ac578705cd",
+                "resourcePath": "scripts\\CharListInteractables\\CharListInteractables.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0a34db01-bb53-406c-b303-caf07987c481",
             "Value": {
                 "id": "c89cdcf5-21ae-4de4-8a1d-39b7e1af6192",
@@ -852,6 +860,7 @@
         "50971579-37cb-414a-955d-ae62503602c6",
         "a61f2ea0-6cf6-41d9-84e5-95575b8e9b9a",
         "934f4501-d603-4248-9514-63b84566abb2",
+        "072e5af8-6e9a-424e-bf24-e084ce9e3aa1",
         "f779ac5e-1cad-4746-b74e-1f8e989ad471",
         "b8ffbd1d-3f42-4f58-bd80-580941213b54"
     ],

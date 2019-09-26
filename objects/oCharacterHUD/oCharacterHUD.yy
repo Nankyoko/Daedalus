@@ -33,6 +33,26 @@
             "enumb": 51,
             "eventtype": 6,
             "m_owner": "26ee4c17-3fba-4be8-aa61-b556f785e04e"
+        },
+        {
+            "id": "0a68e766-6ab0-4844-8548-fbe4bca9b097",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 50,
+            "eventtype": 6,
+            "m_owner": "26ee4c17-3fba-4be8-aa61-b556f785e04e"
+        },
+        {
+            "id": "03c4644e-5c40-4996-a7d4-9fe8572ab914",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "26ee4c17-3fba-4be8-aa61-b556f785e04e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -93,6 +113,48 @@
             "value": "0",
             "varName": "interactable",
             "varType": 3
+        },
+        {
+            "id": "766f0be4-f668-401a-a6ab-2dff7d636f84",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "lockout",
+            "varType": 1
+        },
+        {
+            "id": "e00336ae-64ab-4b65-a332-70c41df27894",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "interactClicked",
+            "varType": 3
+        },
+        {
+            "id": "29dfaf3e-901e-4c00-9110-72c19105dc1f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "numInteractables",
+            "varType": 1
         }
     ],
     "solid": false,

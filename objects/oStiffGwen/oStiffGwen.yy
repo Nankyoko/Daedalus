@@ -233,6 +233,34 @@
             "value": "Gwen",
             "varName": "name",
             "varType": 2
+        },
+        {
+            "id": "0cbec8f0-c82a-4d2c-9b2c-9ddbbae63513",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "interactable",
+            "varType": 3
+        },
+        {
+            "id": "7f44a5d0-c641-49ec-89d9-cb91425c36c5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "nearbyObjects",
+            "varType": 6
         }
     ],
     "solid": false,

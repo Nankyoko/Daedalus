@@ -45,16 +45,6 @@
             "m_owner": "7a1614f1-cd4f-4ef3-9ceb-9f54a7b200b5"
         },
         {
-            "id": "7b56a35b-8405-4589-8a31-2d2ed066df16",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 69,
-            "eventtype": 9,
-            "m_owner": "7a1614f1-cd4f-4ef3-9ceb-9f54a7b200b5"
-        },
-        {
             "id": "61ee39ef-53ab-44b1-baa5-8cd06ad0585e",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -165,6 +155,34 @@
             "value": "0",
             "varName": "roomZ",
             "varType": 0
+        },
+        {
+            "id": "a711e998-f553-41cb-beaf-2d98855a22b1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "interactable",
+            "varType": 3
+        },
+        {
+            "id": "14abf201-adad-4275-acb6-2c06fb2edbd4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Brazier",
+            "varName": "name",
+            "varType": 2
         }
     ],
     "solid": false,

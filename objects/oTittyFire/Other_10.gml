@@ -1,2 +1,2 @@
 /// @description Code for a character interacting with this object
-instance_destroy();
+show_debug_message("The tit fire fell down");

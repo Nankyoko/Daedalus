@@ -10,5 +10,5 @@ roomZ = _tile[TILE.Z];
 if(mouse_x > roomX && mouse_x < roomX + 40 * oRender.cameraZoom) {
 	if(mouse_y > roomY - roomZ && mouse_y < (roomY + 75 * oRender.cameraZoom) - roomZ) {
 		return true;
-	}	
+	}
 }

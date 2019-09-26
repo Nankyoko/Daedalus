@@ -1,1 +1,1 @@
-UIEllipse(sTestUICircle, 0,600, 150, 750);
+UIEllipse(sTestUICircle, 0,900, 150, 1050);
