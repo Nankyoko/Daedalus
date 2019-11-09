@@ -83,6 +83,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
+        },
+        {
+            "id": "092e4825-446a-42bc-bc5c-4fd96e2e620b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -227,6 +237,20 @@
             "value": "True",
             "varName": "interactable",
             "varType": 3
+        },
+        {
+            "id": "db0dd9e6-295d-4a47-97b5-faa9bd1f744d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "nearbyObjects",
+            "varType": 6
         }
     ],
     "solid": false,
