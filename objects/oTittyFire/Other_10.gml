@@ -1,2 +1,5 @@
-/// @description Code for a character interacting with this object
-show_debug_message("The tit fire fell down");
+/// @description Code for a character interacting with this
+
+guiVisible = true;
+
+timeout = 10;

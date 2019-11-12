@@ -53,6 +53,26 @@
             "enumb": 10,
             "eventtype": 7,
             "m_owner": "7a1614f1-cd4f-4ef3-9ceb-9f54a7b200b5"
+        },
+        {
+            "id": "c91bb6a5-23d3-4fa7-ad8f-b5fcece6ff14",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 50,
+            "eventtype": 6,
+            "m_owner": "7a1614f1-cd4f-4ef3-9ceb-9f54a7b200b5"
+        },
+        {
+            "id": "653e0e49-930c-46d9-87f0-112ffddc35ac",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "7a1614f1-cd4f-4ef3-9ceb-9f54a7b200b5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -183,6 +203,34 @@
             "value": "Brazier",
             "varName": "name",
             "varType": 2
+        },
+        {
+            "id": "31740ba5-ac2f-4d07-8e13-27143a50bb77",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "guiVisible",
+            "varType": 3
+        },
+        {
+            "id": "cc848dc7-d074-4089-99a8-65ecb3ef4029",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "timeout",
+            "varType": 1
         }
     ],
     "solid": false,
