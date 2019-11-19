@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "277b9934-76d4-4cfc-a69d-00f5b9deef0e",
+            "Value": {
+                "id": "bbecf16e-28dc-4056-9f3e-1ffa8e464e98",
+                "resourcePath": "objects\\oCoalTile\\oCoalTile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27d8ed7c-7554-49aa-9803-79cc4a38f712",
             "Value": {
                 "id": "306aa0ee-8234-4281-8d1f-ed089ebe8276",
@@ -759,6 +767,14 @@
             }
         },
         {
+            "Key": "e7aacb41-5d2d-48c9-aea5-8b8c60e653ab",
+            "Value": {
+                "id": "59392395-e36e-4a53-85df-ec962c9256eb",
+                "resourcePath": "sprites\\sCoals\\sCoals.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f03b43b3-022c-499a-914f-a335fcb92a23",
             "Value": {
                 "id": "94fd2b27-0542-4cdf-b060-a7c959713180",
@@ -831,6 +847,14 @@
             }
         },
         {
+            "Key": "fab10a9b-9565-4a07-a8fb-835eae36e4b4",
+            "Value": {
+                "id": "faab0eda-2e12-4bb4-896b-a2ba102f7756",
+                "resourcePath": "scripts\\TipBrazier\\TipBrazier.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fb97c5af-4371-4016-a0c1-783b7ae45b03",
             "Value": {
                 "id": "48c4d4fc-9a23-4a53-b051-e0245f8bc4e6",
@@ -862,7 +886,8 @@
         "934f4501-d603-4248-9514-63b84566abb2",
         "072e5af8-6e9a-424e-bf24-e084ce9e3aa1",
         "f779ac5e-1cad-4746-b74e-1f8e989ad471",
-        "b8ffbd1d-3f42-4f58-bd80-580941213b54"
+        "b8ffbd1d-3f42-4f58-bd80-580941213b54",
+        "fab10a9b-9565-4a07-a8fb-835eae36e4b4"
     ],
     "tutorial": ""
 }

@@ -5,7 +5,6 @@ currentTileY = y;
 currentTileX = currentTileX/40;
 currentTileY = currentTileY/40;
 
-global.characterLocations[# currentTileX, currentTileY] = true;
 ds_list_add(global.objectList, id);
 alarm[0] = SPRITE_FPS;
 
