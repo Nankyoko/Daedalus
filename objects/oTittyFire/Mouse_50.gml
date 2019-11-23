@@ -23,6 +23,9 @@ if(guiVisible && timeout == 0) {
 		if(mouse_y > 745 && mouse_y < 770) {
 			TipBrazier(id, 4);
 		}
+		
+		guiVisible = false;
+		oCharacterHUD.interactClicked = false;
 	} else {
 		guiVisible = false;
 	}
