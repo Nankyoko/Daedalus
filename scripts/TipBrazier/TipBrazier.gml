@@ -10,29 +10,45 @@ var _y = _brazier.currentTileY;
 //Up
 if(_direction == 1) {
 	for(var i = 1; i < 5; i++) {
-		if(currentTileY - i > 0) {
-			instance_create_depth(_x*40, (_y-i)*40,0,oCoalTile);
+		if(_y - i > 0) {
+			if(!global.waterLocations[# _x, _y-i]) {
+				instance_create_depth(_x*40, (_y-i)*40,0,oCoalTile);
+			} else {
+				break;
+			}
 		}
 	}
 //Down
 } else if(_direction == 2) {
 	for(var i = 1; i < 5; i++) {
-		if(currentTileY + i < MAP_H) {
-			instance_create_depth(_x*40, (_y+i)*40,0,oCoalTile);
+		if(_y + i < MAP_H) {
+			if(!global.waterLocations[# _x, _y+i]) {
+				instance_create_depth(_x*40, (_y+i)*40,0,oCoalTile);
+			} else {
+				break;
+			}
 		}
 	}
 //Left
 } else if(_direction == 3) {
 	for(var i = 1; i < 5; i++) {
-		if(currentTileX - i > 0) {
-			instance_create_depth((_x-i)*40, _y*40,0,oCoalTile);
+		if(_x - i > 0) {
+			if(!global.waterLocations[# _x-i, _y]) {
+				instance_create_depth((_x-i)*40, _y*40,0,oCoalTile);
+			} else {
+				break;
+			}
 		}
 	}
 //Right
 } else if(_direction == 4) {
 	for(var i = 1; i < 5; i++) {
-		if(currentTileX + i < MAP_W) {
-			instance_create_depth((_x+i)*40, _y*40,0,oCoalTile);
+		if(_x + i < MAP_W) {
+			if(!global.waterLocations[# _x+i, _y]) {
+				instance_create_depth((_x+i)*40, _y*40,0,oCoalTile);
+			} else {
+				break;
+			}
 		}
 	}
 }

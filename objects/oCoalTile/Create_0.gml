@@ -9,3 +9,4 @@ ds_list_add(global.objectList, id);
 alarm[0] = SPRITE_FPS;
 
 depth = (currentTileX + currentTileY) * -100;
+depth++;

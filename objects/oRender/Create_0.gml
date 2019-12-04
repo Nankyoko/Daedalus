@@ -16,6 +16,8 @@ global.theWallMap = ds_grid_create(MAP_W, MAP_H);
 global.characterLocations = ds_grid_create(MAP_W, MAP_H);
 global.characterList = ds_list_create();
 global.objectList = ds_list_create();
+global.waterLocations = ds_grid_create(MAP_W, MAP_H);
+
 //Pulls in the maps to get the individual tile information out of each
 var tileMap = layer_tilemap_get_id("map");
 var heightMap = layer_tilemap_get_id("heightmap");
@@ -46,6 +48,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		global.theMap[# tX, tY] = thisTile;
 		global.theWallMap[# tX, tY] = thisWallTile;
 		global.characterLocations[# tX, tY] = false;
+		global.waterLocations[# tX, tY] = false;
 		
 		//Look, I'm not happy about having each tile be an object either but they 
 		//basically have no internal processes so its not that awful
@@ -54,6 +57,11 @@ for (var tX = 0; tX < MAP_W; tX++)
 			wall.sprite = thisWallTile[TILE.SPRITE];
 			wall.roomZ = thisWallTile[TILE.Z];
 			wall.tZ = heightMapData;
+			
+			//Sets the location of water for all its associated effects
+			if(wall.sprite = 3) {
+				global.waterLocations[# tX, tY] = true;
+			}
 		}
 		
 		if(thisTile[TILE.SPRITE] != 0) {
