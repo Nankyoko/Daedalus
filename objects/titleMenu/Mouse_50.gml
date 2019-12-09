@@ -4,7 +4,9 @@ if(mouse_x > 900 && mouse_x < 1020 && !oOptionsMenu.visible) {
 	if(mouse_y > 600 && mouse_y < 625) {
 		room_goto(sewerMap);
 	}
-	
+	if(mouse_y > 625 && mouse_y < 650) {
+		room_goto(fightClub);
+	}
 	if(mouse_y > 650 && mouse_y < 675) {
 		room_goto(jackMap);
 	}

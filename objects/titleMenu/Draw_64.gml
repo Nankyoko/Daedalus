@@ -9,6 +9,9 @@ draw_set_font(Razer);
 UIRectangle(sTestUIRectangle, 900, 600, 1020, 625);
 draw_text(905, 610, "Sewer Map");
 
+UIRectangle(sTestUIRectangle, 900, 625, 1020, 650);
+draw_text(905, 635, "Fight Club");
+
 UIRectangle(sTestUIRectangle, 900, 650, 1020, 675);
 draw_text(905, 660, "Market Map");
 

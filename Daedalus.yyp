@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "394bf4b8-2e21-47c2-9434-cfd1c102121c",
+            "Value": {
+                "id": "18bc00a4-ca6f-46f4-95d6-748af687a69e",
+                "resourcePath": "rooms\\fightClub\\fightClub.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4397bfac-4f07-4ae3-bae6-2d4e8f5858b1",
             "Value": {
                 "id": "8431e2ca-dff0-412c-a781-ae335e70e7a9",
@@ -419,6 +427,14 @@
             "Value": {
                 "id": "66973367-7390-4457-bec9-b8d81004874d",
                 "resourcePath": "objects\\oIdleCorwin\\oIdleCorwin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90058f08-bd45-454a-b628-aaf7cbba2e72",
+            "Value": {
+                "id": "886d5195-c8c3-4d85-9b32-0a623f241b00",
+                "resourcePath": "objects\\Player2\\Player2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -599,6 +615,14 @@
             }
         },
         {
+            "Key": "b923cdb2-52ce-45b0-90ab-16ce2b82212f",
+            "Value": {
+                "id": "9ce735f6-b3ec-4c69-a57b-39c30616d112",
+                "resourcePath": "objects\\Player1\\Player1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb11762b-f526-4e7f-a912-87699dc653f8",
             "Value": {
                 "id": "3a89f098-4c6c-4f07-84b1-9c93f86442ea",
@@ -684,6 +708,14 @@
                 "id": "a977c27a-5eb2-471d-8442-68d29ecc7a15",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce37e5cd-cd4d-48c1-9510-95dd9307c703",
+            "Value": {
+                "id": "2cfb94a7-2d15-4de6-aae7-62982c952cb8",
+                "resourcePath": "views\\ce37e5cd-cd4d-48c1-9510-95dd9307c703.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
