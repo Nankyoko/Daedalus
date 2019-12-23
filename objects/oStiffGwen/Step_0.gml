@@ -2,3 +2,7 @@
 global.characterLocations[# currentTileX, currentTileY] = true;
 
 nearbyObjects = CharListInteractables(oStiffGwen);
+
+if(currentHP == 0) {
+	event_user(1);
+}
