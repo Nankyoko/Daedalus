@@ -1,5 +1,6 @@
 /// @description Code for a character interacting with this
-
-guiVisible = true;
-
-timeout = 10;
+if(!tipped) {
+	guiVisible = true;
+	tipped = true;
+	timeout = 10;
+}
