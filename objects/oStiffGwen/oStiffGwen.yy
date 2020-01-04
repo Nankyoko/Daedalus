@@ -261,6 +261,48 @@
             "value": "0",
             "varName": "nearbyObjects",
             "varType": 6
+        },
+        {
+            "id": "92010798-c6de-4a1e-845d-eabe947704cc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "movesLeft",
+            "varType": 1
+        },
+        {
+            "id": "bcd7cf6a-caed-4a98-943f-59ea30de0511",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "maxMoveSpeed",
+            "varType": 1
+        },
+        {
+            "id": "ffeadb0e-d902-4982-8517-14c04ae5898b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dead",
+            "varType": 3
         }
     ],
     "solid": false,

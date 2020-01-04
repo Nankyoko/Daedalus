@@ -7,4 +7,8 @@ if(!xrayMode) {
 	UIRectangle(sTestUIRectangleRed, 1800, 900, 1900, 925);
 	UIEllipse(sTestUICircleEmpty, mouse_x-75, mouse_y-75, mouse_x+75, mouse_y+75);
 }
-draw_text(1807, 905, "X-Ray Mode");
+draw_text(1810, 910, "X-Ray Mode");
+
+//End Turn
+UIRectangle(sTestUIRectangle, 1800, 825, 1900, 875);
+draw_text(1810, 845, "END TURN");

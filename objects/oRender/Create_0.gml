@@ -16,6 +16,7 @@ global.theWallMap = ds_grid_create(MAP_W, MAP_H);
 global.characterLocations = ds_grid_create(MAP_W, MAP_H);
 global.characterList = ds_list_create();
 global.objectList = ds_list_create();
+global.damageTiles = ds_list_create();
 global.waterLocations = ds_grid_create(MAP_W, MAP_H);
 
 //Pulls in the maps to get the individual tile information out of each

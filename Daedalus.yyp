@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "60276dd4-e2b7-4232-927f-2fa6f6012208",
+            "Value": {
+                "id": "6d6f4c49-4a1f-4adc-b266-2ec42874d809",
+                "resourcePath": "scripts\\turnEnd\\turnEnd.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "61716f5b-8c33-4704-bea8-3302b4543474",
             "Value": {
                 "id": "b30bf0ab-2bf0-4815-9990-62dd6f93c24d",
@@ -807,6 +815,14 @@
             }
         },
         {
+            "Key": "ec1c65f7-87af-4b7f-b6e1-fff1e28067b3",
+            "Value": {
+                "id": "911d3591-46ce-4039-9e6d-cce54febf9e5",
+                "resourcePath": "views\\ec1c65f7-87af-4b7f-b6e1-fff1e28067b3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f03b43b3-022c-499a-914f-a335fcb92a23",
             "Value": {
                 "id": "94fd2b27-0542-4cdf-b060-a7c959713180",
@@ -871,6 +887,14 @@
             }
         },
         {
+            "Key": "f794c3db-78c5-46d2-a95e-a37b73e89c02",
+            "Value": {
+                "id": "240cd19e-7fe6-48f8-91f0-230bb4c1e358",
+                "resourcePath": "scripts\\turnStart\\turnStart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7d197c4-40b2-41a5-b56b-0b74c3ac904d",
             "Value": {
                 "id": "c1794aa7-f561-49d9-a5f7-9f46b44c7021",
@@ -919,7 +943,9 @@
         "072e5af8-6e9a-424e-bf24-e084ce9e3aa1",
         "f779ac5e-1cad-4746-b74e-1f8e989ad471",
         "b8ffbd1d-3f42-4f58-bd80-580941213b54",
-        "fab10a9b-9565-4a07-a8fb-835eae36e4b4"
+        "fab10a9b-9565-4a07-a8fb-835eae36e4b4",
+        "f794c3db-78c5-46d2-a95e-a37b73e89c02",
+        "60276dd4-e2b7-4232-927f-2fa6f6012208"
     ],
     "tutorial": ""
 }

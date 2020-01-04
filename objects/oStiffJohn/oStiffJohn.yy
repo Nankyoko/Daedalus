@@ -93,6 +93,16 @@
             "enumb": 10,
             "eventtype": 7,
             "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
+        },
+        {
+            "id": "33b49e15-4c4f-4ee0-afc6-a42f0ac40832",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
+            "m_owner": "302a36da-1734-4e1d-8e13-12cf3177b9de"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -251,6 +261,48 @@
             "value": "0",
             "varName": "nearbyObjects",
             "varType": 6
+        },
+        {
+            "id": "fad393e2-ef20-4c1f-8b7f-0959f2af3bd8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "movesLeft",
+            "varType": 1
+        },
+        {
+            "id": "b2850730-489e-4a3b-9f8f-26dfbeb82bc5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "maxMoveSpeed",
+            "varType": 1
+        },
+        {
+            "id": "c1646653-e84a-4484-8255-627318a4a1be",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dead",
+            "varType": 3
         }
     ],
     "solid": false,

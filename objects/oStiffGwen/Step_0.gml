@@ -3,6 +3,10 @@ global.characterLocations[# currentTileX, currentTileY] = true;
 
 nearbyObjects = CharListInteractables(oStiffGwen);
 
-if(currentHP == 0) {
+if(movesLeft = 0) {
+	turnUsed = true;
+}
+
+if(currentHP <= 0) {
 	event_user(1);
 }
