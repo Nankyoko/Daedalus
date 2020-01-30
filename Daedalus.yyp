@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "f3ef8ff8-0aec-4f70-97ba-bc05a0ca1795",
+            "Value": {
+                "id": "b2b16b8b-a56c-42f1-920e-b73fdf4463ee",
+                "resourcePath": "sprites\\sUIButton\\sUIButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "08043af6-9e33-44b6-be45-02337065f109",
