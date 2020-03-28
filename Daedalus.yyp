@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "4527bedf-ca27-4034-9365-a92e827e6d1d",
+            "Value": {
+                "id": "e8c5163d-9f8b-4955-9801-2e5c3df7404f",
+                "resourcePath": "sprites\\sUIButton\\sUIButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46e4023e-a396-4ab9-9cd2-26137f0e7e51",
             "Value": {
                 "id": "80868a70-2e1b-4d7d-830e-fb14dbfb8a8d",
@@ -844,14 +852,6 @@
                 "id": "655f54cd-9e8c-45da-85c2-ee126ef48224",
                 "resourcePath": "notes\\Pathing Algorithm.yy",
                 "resourceType": "GMNotes"
-            }
-        },
-        {
-            "Key": "f3ef8ff8-0aec-4f70-97ba-bc05a0ca1795",
-            "Value": {
-                "id": "b2b16b8b-a56c-42f1-920e-b73fdf4463ee",
-                "resourcePath": "sprites\\sUIButton\\sUIButton.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
