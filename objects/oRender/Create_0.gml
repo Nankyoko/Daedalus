@@ -1,4 +1,4 @@
-/// @description Build the map
+/// @description Build the map and all global variables, since this will always be created first
 
 //Hides the flat map and the height map
 layer_set_visible("map", false);
@@ -18,6 +18,7 @@ global.characterList = ds_list_create();
 global.objectList = ds_list_create();
 global.damageTiles = ds_list_create();
 global.waterLocations = ds_grid_create(MAP_W, MAP_H);
+global.charTurnList = ds_list_create();
 
 //Pulls in the maps to get the individual tile information out of each
 var tileMap = layer_tilemap_get_id("map");

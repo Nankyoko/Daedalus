@@ -303,6 +303,34 @@
             "value": "0",
             "varName": "dead",
             "varType": 3
+        },
+        {
+            "id": "5acc47e1-4305-424b-b737-838e459fa06a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "turnOrder",
+            "varType": 0
+        },
+        {
+            "id": "240bd918-3e34-4023-8629-aba17812f338",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "turnOrderBonus",
+            "varType": 0
         }
     ],
     "solid": false,
