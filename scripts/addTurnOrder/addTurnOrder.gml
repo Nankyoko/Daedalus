@@ -6,9 +6,10 @@ _turn += _char.turnOrderBonus;
 
 if(ds_list_empty(global.charTurnList)) {
 	ds_list_add(global.charTurnList, _char);
+	_char.turnOrder=_turn;
 } else {
 	var i = 0;
-	while(_turn < global.charTurnList.turnOrder && i < ds_list_size(global.charTurnList)) {
+	while(i < ds_list_size(global.charTurnList) && _turn < ds_list_find_value(global.charTurnList, i).turnOrder) {
 		i++;
 	}
 	if(i < ds_list_size(global.charTurnList)) {
@@ -16,4 +17,6 @@ if(ds_list_empty(global.charTurnList)) {
 	} else {
 		ds_list_add(global.charTurnList, _char);
 	}
+	_char.turnOrder=_turn;
 }
+

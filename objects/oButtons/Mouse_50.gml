@@ -11,12 +11,9 @@ if(!oPauseMenu.isPaused && lockout == 0) {
 		//End Turn Code
 		if(mouse_y > 825 && mouse_y < 875) {
 			lockout = 100;
-			if(Player1.isTurn) {
-				turnEnd(Player1);
-				turnStart(Player2);
-			} else {
-				turnEnd(Player2);
-				turnStart(Player1);
+			for(var i = 0; i < ds_list_size(global.charTurnList); i++) {
+				show_debug_message(ds_list_find_value(global.charTurnList, i).name);
+				show_debug_message(ds_list_find_value(global.charTurnList, i).turnOrder);
 			}
 		}
 	}

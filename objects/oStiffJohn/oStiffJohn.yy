@@ -314,9 +314,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "6\\u000d\\u000a4",
+            "value": "0",
             "varName": "turnOrder",
-            "varType": 0
+            "varType": 1
+        },
+        {
+            "id": "f4d419bb-d696-435a-aaa9-5d11b9b7196e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "turnOrderBonus",
+            "varType": 1
         }
     ],
     "solid": false,
