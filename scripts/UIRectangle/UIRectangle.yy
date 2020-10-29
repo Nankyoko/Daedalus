@@ -1,8 +1,12 @@
 {
-    "id": "aedc6218-c6b0-450f-86ec-74e15e5fb185",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "UIRectangle",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Shapes",
+    "path": "folders/Scripts/User Interface/Shapes.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "UIRectangle",
+  "tags": [],
+  "resourceType": "GMScript",
 }

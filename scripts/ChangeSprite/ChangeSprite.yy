@@ -1,8 +1,12 @@
 {
-    "id": "98a12bed-eee5-4d49-967b-4a59cdb2c680",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "ChangeSprite",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "User Interface",
+    "path": "folders/Scripts/User Interface.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "ChangeSprite",
+  "tags": [],
+  "resourceType": "GMScript",
 }

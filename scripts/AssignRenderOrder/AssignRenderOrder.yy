@@ -1,8 +1,12 @@
 {
-    "id": "dd65a890-afde-4d61-b014-07017e3eff22",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "AssignRenderOrder",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Isometric Rendering",
+    "path": "folders/Scripts/Isometric Rendering.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "AssignRenderOrder",
+  "tags": [],
+  "resourceType": "GMScript",
 }

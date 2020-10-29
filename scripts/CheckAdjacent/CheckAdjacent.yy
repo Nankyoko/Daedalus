@@ -1,8 +1,12 @@
 {
-    "id": "b8ffbd1d-3f42-4f58-bd80-580941213b54",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "CheckAdjacent",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Map and Interactables",
+    "path": "folders/Scripts/Map and Interactables.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "CheckAdjacent",
+  "tags": [],
+  "resourceType": "GMScript",
 }

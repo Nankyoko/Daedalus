@@ -1,0 +1,14 @@
+Djikstra Algorithm, with several weights
+Pathing excludes anything sprite 0
+Endangered? spaces 2
+Normal traverse 1
+Climb 1.5
+To favor climb over damage
+Multiplication modifiers to change how each class responds to these values
+EX. Tank /2, *1.5, *1.5
+To favor being in a place of taking damage
+EX. Rogue *2, *1, *1, To heavily avoid damage
+
+"Rough Terrain spaces" have massive weight
+
+Weight enemies based on HP and distance for DPS units

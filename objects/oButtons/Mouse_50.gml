@@ -10,11 +10,10 @@ if(!oPauseMenu.isPaused && lockout == 0) {
 		
 		//End Turn Code
 		if(mouse_y > 825 && mouse_y < 875) {
-			lockout = 100;
-			for(var i = 0; i < ds_list_size(global.charTurnList); i++) {
-				show_debug_message(ds_list_find_value(global.charTurnList, i).name);
-				show_debug_message(ds_list_find_value(global.charTurnList, i).turnOrder);
-			}
+			lockout = 10;
+			passTurn();
+			show_debug_message(ds_queue_head(global.charTurnQueue).name);
+			oCharacterHUD.currentCharacter.isSelected = true;
 		}
 	}
 }

@@ -1,8 +1,12 @@
 {
-    "id": "072e5af8-6e9a-424e-bf24-e084ce9e3aa1",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "CharListInteractables",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Character HUD",
+    "path": "folders/Scripts/User Interface/Character UI/Character HUD.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "CharListInteractables",
+  "tags": [],
+  "resourceType": "GMScript",
 }

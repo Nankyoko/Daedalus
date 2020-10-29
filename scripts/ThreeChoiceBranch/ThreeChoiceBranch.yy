@@ -1,8 +1,12 @@
 {
-    "id": "ad51af05-8ddc-4a33-84df-e48310202136",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "ThreeChoiceBranch",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Dialog System",
+    "path": "folders/Scripts/Dialog System.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "ThreeChoiceBranch",
+  "tags": [],
+  "resourceType": "GMScript",
 }
