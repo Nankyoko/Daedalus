@@ -12,13 +12,26 @@ draw_set_color(c_black);
 global.theMap = ds_grid_create(MAP_W, MAP_H);
 global.theWallMap = ds_grid_create(MAP_W, MAP_H);
 
-//the list of occupied locations and the list of things occupying them
+//the list of occupied locations
 global.characterLocations = ds_grid_create(MAP_W, MAP_H);
+
+//List of all characters on the map
 global.characterList = ds_list_create();
+
+//List of all objects on the map (Such as braziers)
 global.objectList = ds_list_create();
+
+//List of tiles that will do damage
 global.damageTiles = ds_list_create();
+
+//List of all locations that are wet
 global.waterLocations = ds_grid_create(MAP_W, MAP_H);
-global.charTurnList = ds_list_create();
+
+//Initial list of all characters with associated initiative rolls
+global.charTurnBuffer = ds_list_create();
+
+//The queue of all characters with a turn, filled from the flushed buffer
+global.charTurnQueue = ds_queue_create();
 
 //Pulls in the maps to get the individual tile information out of each
 var tileMap = layer_tilemap_get_id("map");

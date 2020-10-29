@@ -1,8 +1,12 @@
 {
-    "id": "1e54535a-63ad-4bda-88dc-ab6dc07a608e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "TileToScreenX",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Isometric Rendering",
+    "path": "folders/Scripts/Isometric Rendering.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TileToScreenX",
+  "tags": [],
+  "resourceType": "GMScript",
 }

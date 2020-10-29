@@ -1,0 +1,16 @@
+Space: Advance dialog
+Left click on character: Display character UI
+Left click on buttons: It clicks on the button, duh
+Right click: Hide character UI
+
+Up/Down/Left/Right Arrow Keys: move camera
+
+Page Up/Page Down: Zoom/Zoom out
+
+W A S D: Move character
+
+Escape: Opens the pause menu
+
+Q: X-ray mode
+
+Home: Reset camera

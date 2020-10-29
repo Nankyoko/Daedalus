@@ -1,8 +1,12 @@
 {
-    "id": "3209fefd-849f-45d3-b4d8-d2daaffd80f7",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "TwoChoiceBranch",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Dialog System",
+    "path": "folders/Scripts/Dialog System.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TwoChoiceBranch",
+  "tags": [],
+  "resourceType": "GMScript",
 }
