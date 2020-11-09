@@ -1,5 +1,7 @@
 /// @description Build the map and all global variables, since this will always be created first
 
+//This essentially loads the entire game, it is critical that it loads first.
+
 //Hides the flat map and the height map
 layer_set_visible("map", false);
 layer_set_visible("heightmap", false);
@@ -89,3 +91,4 @@ for (var tX = 0; tX < MAP_W; tX++)
 }
 
 audio_play_sound(TestBGM, 0, true);
+randomize();

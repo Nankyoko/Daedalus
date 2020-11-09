@@ -12,7 +12,6 @@ if(!oPauseMenu.isPaused && lockout == 0) {
 		if(mouse_y > 825 && mouse_y < 875) {
 			lockout = 10;
 			passTurn();
-			show_debug_message(ds_queue_head(global.charTurnQueue).name);
 			oCharacterHUD.currentCharacter.isSelected = true;
 		}
 	}

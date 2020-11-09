@@ -2,15 +2,14 @@ function addTurnOrder(argument0) {
 	var _char = argument0;
 	
 	//Roll a D20
-	var _turn = random_range(0, 20);
+	var _turn = random_range(0, 6) + random_range(0, 6);
 	
 	//Add character's DEX bonus
 	_turn += _char.turnOrderBonus;
-	
+	_char.turnOrder=_turn;
 	//If the list is empty, insert character immediately
 	if(ds_list_empty(global.charTurnBuffer)) {
 		ds_list_add(global.charTurnBuffer, _char);
-		_char.turnOrder=_turn;
 	} else {
 		var i = 0;
 		
@@ -26,6 +25,5 @@ function addTurnOrder(argument0) {
 		} else {
 			ds_list_add(global.charTurnBuffer, _char);
 		}
-		_char.turnOrder=_turn;
 	}
 }

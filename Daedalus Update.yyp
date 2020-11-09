@@ -61,8 +61,6 @@
     {"id":{"name":"oButtons","path":"objects/oButtons/oButtons.yy",},"order":0,},
     {"id":{"name":"titleMenu","path":"objects/titleMenu/titleMenu.yy",},"order":0,},
     {"id":{"name":"oTittyFire","path":"objects/oTittyFire/oTittyFire.yy",},"order":0,},
-    {"id":{"name":"Player1","path":"objects/Player1/Player1.yy",},"order":0,},
-    {"id":{"name":"Player2","path":"objects/Player2/Player2.yy",},"order":1,},
     {"id":{"name":"testMenuRoom","path":"rooms/testMenuRoom/testMenuRoom.yy",},"order":0,},
     {"id":{"name":"sewerMap","path":"rooms/sewerMap/sewerMap.yy",},"order":1,},
     {"id":{"name":"fightClub","path":"rooms/fightClub/fightClub.yy",},"order":2,},
