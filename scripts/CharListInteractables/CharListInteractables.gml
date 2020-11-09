@@ -1,158 +1,65 @@
 function CharListInteractables(argument0) {
-	//I'm not super proud of this algorithm, but I'll come back to it if I have time
-	
 	//The character to search around
 	var _char = argument0;
 
 	//The list of objects around the character to be returned
-	var _list = ds_list_create();
+	var _objectList = ds_list_create();
+	
+	//List of enemies around the character
+	var _enemyList = ds_list_create();
 
 	//The object being scanned
 	var _scanObject;
-
-	//Boolean to skip loops for efficiency
-	var _objectFound = false;
-
-	//Search up
-	if(global.characterLocations[# _char.currentTileX, _char.currentTileY-1]) {
 	
-		//Loop over all the objects in the room (Not characters or floor items)
-		for(var i = 0; i < ds_list_size(global.objectList); i++;) {
+	//Check for any objects next to the given character
+	for(var i = 0; i < ds_list_size(global.objectList); i++) {
+		_scanObject = ds_list_find_value(global.objectList, i);
 		
-			_scanObject = ds_list_find_value(global.objectList, i);
+		//Check North/South
+		if(_scanObject.currentTileX == _char.currentTileX) {
+			if(_scanObject.currentTileY-1 == _char.currentTileY || _scanObject.currentTileY+1 == _char.currentTileY) {
+				ds_list_add(_objectList, _scanObject);
+			}
+		}
 		
-			if(_scanObject.currentTileX = _char.currentTileX) {
-				if(_scanObject.currentTileY = _char.currentTileY-1) {
-					//Add it to the list and exit the loop
-					ds_list_add(_list, _scanObject);
-					_objectFound = true;
-					break;
+		//Check East/West
+		if(_scanObject.currentTileY == _char.currentTileY) {
+			if(_scanObject.currentTileX-1 == _char.currentTileX || _scanObject.currentTileX+1 == _char.currentTileX) {
+				ds_list_add(_objectList, _scanObject);
+			}
+		}
+	}
+	
+	//Check for any allies or enemies, and shuffle them into the appropriate lists
+	for(var i = 0; i < ds_list_size(global.characterList); i++) {
+		_scanObject = ds_list_find_value(global.characterList, i);
+		
+		//Check North/South
+		if(_scanObject.currentTileX == _char.currentTileX) {
+			if(_scanObject.currentTileY-1 == _char.currentTileY || _scanObject.currentTileY+1 == _char.currentTileY) {
+				if(_scanObject.team == _char.team) {
+					ds_list_add(_objectList, _scanObject);
+				} else {
+					ds_list_add(_enemyList, _scanObject);	
 				}
 			}
 		}
 		
-		//If no object is found, check for a character instead
-		if(!_objectFound) {
-			for(var i = 0; i < ds_list_size(global.characterList); i++;) {
-		
-				_scanObject = ds_list_find_value(global.characterList, i);
-		
-				if(_scanObject.currentTileX = _char.currentTileX) {
-					if(_scanObject.currentTileY = _char.currentTileY-1) {
-						//Add it to the list and exit the loop
-						ds_list_add(_list, _scanObject);
-						break;
-					}
+		//Check East/West
+		if(_scanObject.currentTileY == _char.currentTileY) {
+			if(_scanObject.currentTileX-1 == _char.currentTileX || _scanObject.currentTileX+1 == _char.currentTileX) {
+				if(_scanObject.team == _char.team) {
+					ds_list_add(_objectList, _scanObject);
+				} else {
+					ds_list_add(_enemyList, _scanObject);	
 				}
 			}
 		}
 	}
-
-	_objectFound = false;
-
-	//Search down
-	if(global.characterLocations[# _char.currentTileX, _char.currentTileY+1]) {
-		//Loop over all the objects in the room (Not characters or floor items)
-		for(var i = 0; i < ds_list_size(global.objectList); i++;) {
-		
-			_scanObject = ds_list_find_value(global.objectList, i);
-		
-			if(_scanObject.currentTileX = _char.currentTileX) {
-				if(_scanObject.currentTileY = _char.currentTileY+1) {
-					//Add it to the list and exit the loop
-					ds_list_add(_list, _scanObject);
-					_objectFound = true;
-					break;
-				}
-			}
-		}
 	
-		if(!_objectFound) {
-			for(var i = 0; i < ds_list_size(global.characterList); i++;) {
-		
-				_scanObject = ds_list_find_value(global.characterList, i);
-		
-				if(_scanObject.currentTileX = _char.currentTileX) {
-					if(_scanObject.currentTileY = _char.currentTileY+1) {
-						//Add it to the list and exit the loop
-						ds_list_add(_list, _scanObject);
-						break;
-					}
-				}
-			}
-		}
-	}
-
-	_objectFound = false;
-
-	//Search left
-	if(global.characterLocations[# _char.currentTileX-1, _char.currentTileY]) {
-		//Loop over all the objects in the room (Not characters or floor items)
-		for(var i = 0; i < ds_list_size(global.objectList); i++;) {
-		
-			_scanObject = ds_list_find_value(global.objectList, i);
-		
-			if(_scanObject.currentTileX = _char.currentTileX-1) {
-				if(_scanObject.currentTileY = _char.currentTileY) {
-					//Add it to the list and exit the loop
-					ds_list_add(_list, _scanObject);
-					_objectFound = true;
-					break;
-				}
-			}
-		}
+	_char.nearbyObjects = _objectList;
+	_char.nearbyEnemy = _enemyList;
 	
-		if(!_objectFound) {
-			for(var i = 0; i < ds_list_size(global.characterList); i++;) {
-		
-				_scanObject = ds_list_find_value(global.characterList, i);
-			
-				if(_scanObject.currentTileX = _char.currentTileX-1) {
-					if(_scanObject.currentTileY = _char.currentTileY) {
-						//Add it to the list and exit the loop
-						ds_list_add(_list, _scanObject);
-						break;
-					}
-				}
-			}
-		}
-	}
-
-	_objectFound = false;
-
-	//Search right
-	if(global.characterLocations[# _char.currentTileX+1, _char.currentTileY]) {
-		//Loop over all the objects in the room (Not characters or floor items)
-		for(var i = 0; i < ds_list_size(global.objectList); i++;) {
-		
-			_scanObject = ds_list_find_value(global.objectList, i);
-		
-			if(_scanObject.currentTileX = _char.currentTileX+1) {
-				if(_scanObject.currentTileY = _char.currentTileY) {
-					//Add it to the list and exit the loop
-					ds_list_add(_list, _scanObject);
-					_objectFound = true;
-					break;
-				}
-			}
-		}
-	
-		if(!_objectFound) {
-		for(var i = 0; i < ds_list_size(global.characterList); i++;) {	
-				_scanObject = ds_list_find_value(global.characterList, i);
-			
-				if(_scanObject.currentTileX = _char.currentTileX+1) {
-					if(_scanObject.currentTileY = _char.currentTileY) {
-						//Add it to the list and exit the loop
-						ds_list_add(_list, _scanObject);
-						break;
-					}
-				}
-			}
-		}
-	}
-
-	return _list;
-
-
+	oCharacterHUD.interactable = ds_list_size(_objectList) > 0;
+	oCharacterHUD.enemy = ds_list_size(_enemyList) > 0;
 }

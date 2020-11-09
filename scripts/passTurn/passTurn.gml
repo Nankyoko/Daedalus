@@ -30,4 +30,7 @@ function passTurn(){
 			}
 		}
 	}
+	
+	//List the character interactables
+	CharListInteractables(_newChar);
 }

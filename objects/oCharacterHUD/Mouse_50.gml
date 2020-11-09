@@ -3,9 +3,20 @@ if(visible && interactable && lockout == 0) {
 	
 	lockout = 10;
 	
+	//If interact is clicked, toggle it, but always deselect attack list
 	if(mouse_x > 25 && mouse_x < 150) {
 		if(mouse_y > 850 && mouse_y < 875) {
 			interactClicked = !interactClicked;
+			attackClicked = false;
+			exit;
+		}
+	}
+	
+	//If attack is clicked, toggle it and always deselect the interact list
+	if(mouse_x > 25 && mouse_x < 150) {
+		if(mouse_y > 815 && mouse_y < 840) {
+			attackClicked = !attackClicked;
+			interactClicked = false;
 			exit;
 		}
 	}

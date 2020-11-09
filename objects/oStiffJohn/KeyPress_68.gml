@@ -5,5 +5,6 @@ if(isSelected && currentTileX != MAP_W-1 && movesLeft > 0) {
 			global.characterLocations[# currentTileX, currentTileY] = false;
 			currentTileX += 1;
 			movesLeft--;
+			CharListInteractables(oStiffJohn);
 		}
 }

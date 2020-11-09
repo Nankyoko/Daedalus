@@ -5,5 +5,6 @@ if(isSelected && currentTileX != 0 && movesLeft > 0) {
 			global.characterLocations[# currentTileX, currentTileY] = false;
 			currentTileX -= 1;
 			movesLeft--;
+			CharListInteractables(oIdleCorwin);
 		}
 }

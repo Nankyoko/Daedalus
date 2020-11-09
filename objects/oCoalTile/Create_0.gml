@@ -5,7 +5,6 @@ currentTileY = y;
 currentTileX = currentTileX/40;
 currentTileY = currentTileY/40;
 
-ds_list_add(global.objectList, id);
 ds_list_add(global.damageTiles, id);
 alarm[0] = SPRITE_FPS;
 
