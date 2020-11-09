@@ -10,7 +10,7 @@ if(visible && interactable && lockout == 0) {
 		}
 	}
 	
-	if(interactClicked) {
+	if(interactClicked && !currentCharacter.turnUsed) {
 		if(mouse_x > 175 && mouse_x < 300) {
 			if(mouse_y > 850 && mouse_y < 875) {
 				with ds_list_find_value(currentCharacter.nearbyObjects, 0){
@@ -28,6 +28,8 @@ if(visible && interactable && lockout == 0) {
 				with ds_list_find_value(currentCharacter.nearbyObjects, 3){
 					event_user(0);
 				}
+				
+			currentCharacter.turnUsed = true;
 			}
 		}
 	}

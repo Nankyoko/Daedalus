@@ -4,7 +4,7 @@ function passTurn(){
 	//Move the old char to the back and set turn to used
 	var _oldChar = ds_queue_dequeue(global.charTurnQueue);
 	_oldChar.movesLeft = 0;
-	_oldChar.turnUsed = false;
+	_oldChar.turnUsed = true;
 	_oldChar.isSelected = false;
 	ds_queue_enqueue(global.charTurnQueue, _oldChar);
 	

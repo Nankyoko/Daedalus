@@ -87,3 +87,5 @@ for (var tX = 0; tX < MAP_W; tX++)
 		}
 	}
 }
+
+audio_play_sound(TestBGM, 0, true);
