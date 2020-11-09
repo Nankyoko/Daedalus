@@ -1,5 +1,5 @@
 /// @description Interacts with buttons like Sharron interacted with all those men
-if(visible && interactable && lockout == 0) {
+if(visible && interactable || enemy && lockout == 0) {
 	
 	lockout = 10;
 	
