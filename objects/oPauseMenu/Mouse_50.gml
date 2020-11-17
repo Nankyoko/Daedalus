@@ -8,6 +8,7 @@ if(visible && !quitPressed && !restartPressed && !oOptionsMenu.visible) {
 		}
 		//Retreat
 		if(mouse_x > 470 && mouse_x < 554) {
+			audio_stop_all();
 			room_goto(testMenuRoom);	
 		}
 		//Quit
@@ -41,6 +42,7 @@ if(restartPressed && visible) {
 	if(mouse_y > 400 && mouse_y < 425) {
 		//Yes
 		if(mouse_x > 475 && mouse_x < 520) {
+			audio_stop_all();
 			room_restart();	
 		}
 		//No

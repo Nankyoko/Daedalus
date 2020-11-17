@@ -19,3 +19,10 @@ if(frameNumber = 13) {
 	frameNumber = 0;	
 }
 draw_sprite_stretched(sIdleCorwin, frameNumber, roomX, roomY-(tileZ*_cameraZoom), 40 * _cameraZoom, 75 * _cameraZoom);
+
+if(showDamage > 0) {
+	draw_set_color(c_red);
+	draw_text(roomX, roomY, damageTaken);
+	showDamage--;
+	draw_set_color(c_black);
+}

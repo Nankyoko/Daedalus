@@ -13,6 +13,4 @@ function characterHitbox(argument0) {
 			return true;
 		}
 	}
-
-
 }

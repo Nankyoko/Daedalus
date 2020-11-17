@@ -44,4 +44,22 @@ if(visible && interactable || enemy && lockout == 0) {
 			}
 		}
 	}
+	
+	if(attackClicked && !currentCharacter.turnUsed) {
+		if(mouse_x > 175 && mouse_x < 300) {
+			if(mouse_y > 850 && mouse_y < 875) {
+				attackCharacter(currentCharacter, ds_list_find_value(currentCharacter.nearbyEnemy, 0));
+				currentCharacter.turnUsed = true;
+			} else if(mouse_y > 815 && mouse_y < 840 && numEnemies >= 2) {
+				attackCharacter(currentCharacter, ds_list_find_value(currentCharacter.nearbyEnemy, 1));
+				currentCharacter.turnUsed = true;
+			} else if(mouse_y > 780 && mouse_y < 805 && numEnemies >= 3) {
+				attackCharacter(currentCharacter, ds_list_find_value(currentCharacter.nearbyEnemy, 2));
+				currentCharacter.turnUsed = true;
+			} else if(mouse_y > 745 && mouse_y < 770 && numEnemies >= 4) {
+				attackCharacter(currentCharacter, ds_list_find_value(currentCharacter.nearbyEnemy, 3));
+				currentCharacter.turnUsed = true;
+			}
+		}
+	}
 }

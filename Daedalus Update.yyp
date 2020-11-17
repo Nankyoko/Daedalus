@@ -45,6 +45,7 @@
     {"id":{"name":"oEmptyDialog","path":"objects/oEmptyDialog/oEmptyDialog.yy",},"order":0,},
     {"id":{"name":"oTestDialogSuicide","path":"objects/oTestDialogSuicide/oTestDialogSuicide.yy",},"order":0,},
     {"id":{"name":"oTestDialogBox","path":"objects/oTestDialogBox/oTestDialogBox.yy",},"order":1,},
+    {"id":{"name":"attackCharacter","path":"scripts/attackCharacter/attackCharacter.yy",},"order":3,},
     {"id":{"name":"oTestDialogLoudly","path":"objects/oTestDialogLoudly/oTestDialogLoudly.yy",},"order":2,},
     {"id":{"name":"oTestDialogSoftly","path":"objects/oTestDialogSoftly/oTestDialogSoftly.yy",},"order":3,},
     {"id":{"name":"oTestThreeBranch","path":"objects/oTestThreeBranch/oTestThreeBranch.yy",},"order":4,},
