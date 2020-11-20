@@ -7,52 +7,55 @@ function TipBrazier(argument0, argument1) {
 	var _direction = argument1;
 	var _x = _brazier.currentTileX;
 	var _y = _brazier.currentTileY;
-
+	
+	//All 4 loops are the same, they just do it in different directions
+	
 	//Up
-	if(_direction == 1) {
+	switch (_direction) {
+	case 1:
 		for(var i = 1; i < 5; i++) {
-			if(_y - i > 0) {
-				if(!global.waterLocations[# _x, _y-i]) {
-					instance_create_depth(_x*40, (_y-i)*40,0,oCoalTile);
-				} else {
-					break;
-				}
+			
+			//Stop if the map ends or if it hits a water tile
+			if(global.theMap[# _x, _y-i][TILE.SPRITE != 0] && !global.waterLocations[# _x, _y-i]) {
+				
+				//Create instance of a coal tile at this area
+				instance_create_depth(_x*40, (_y-i)*40,0,oCoalTile);
+			} else {
+				
+				//Stop the loop if it collides with either event
+				break;
 			}
 		}
+		break;
 	//Down
-	} else if(_direction == 2) {
+	case 2:
 		for(var i = 1; i < 5; i++) {
-			if(_y + i < MAP_H) {
-				if(!global.waterLocations[# _x, _y+i]) {
-					instance_create_depth(_x*40, (_y+i)*40,0,oCoalTile);
-				} else {
-					break;
-				}
+			if(global.theMap[# _x, _y+i][TILE.SPRITE] != 0 && !global.waterLocations[# _x, _y+i]) {
+				instance_create_depth(_x*40, (_y+i)*40,0,oCoalTile);
+			} else {
+				break;
 			}
 		}
+		break;
 	//Left
-	} else if(_direction == 3) {
+	case 3:
 		for(var i = 1; i < 5; i++) {
-			if(_x - i > 0) {
-				if(!global.waterLocations[# _x-i, _y]) {
-					instance_create_depth((_x-i)*40, _y*40,0,oCoalTile);
-				} else {
-					break;
-				}
+			if(global.theMap[# _x-i, _y][TILE.SPRITE] != 0 && !global.waterLocations[# _x-i, _y]) {
+				instance_create_depth((_x-i)*40, _y*40,0,oCoalTile);
+			} else {
+				break;
 			}
 		}
+		break;
 	//Right
-	} else if(_direction == 4) {
+	case 4:
 		for(var i = 1; i < 5; i++) {
-			if(_x + i < MAP_W) {
-				if(!global.waterLocations[# _x+i, _y]) {
-					instance_create_depth((_x+i)*40, _y*40,0,oCoalTile);
-				} else {
-					break;
-				}
+			if(global.theMap[# _x+i, _y][TILE.SPRITE] != 0 && !global.waterLocations[# _x+i, _y]) {
+				instance_create_depth((_x+i)*40, _y*40,0,oCoalTile);
+			} else {
+				break;
 			}
 		}
+		break;
 	}
-
-
 }

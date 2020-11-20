@@ -26,7 +26,9 @@ function passTurn(){
 		var _tile = ds_list_find_value(global.damageTiles, i);
 		if(_tile.currentTileX = _newChar.currentTileX) {
 			if(_tile.currentTileY = _newChar.currentTileY) {
-				_newChar.currentHP -= _tile.damage;
+				_newChar.currentHP -= _newChar.maxHP * _tile.damage;
+				_newChar.showDamage = 60;
+				_newChar.damageTaken = _newChar.maxHP * _tile.damage;
 			}
 		}
 	}
