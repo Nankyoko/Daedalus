@@ -1,5 +1,5 @@
 /// @description Handles the hitboxes and code for all the little buttons
-if(!oPauseMenu.isPaused && lockout == 0) {
+if(!oPauseMenu.isPaused && lockout == 0 && visible) {
 	
 	if(mouse_x > 1800 && mouse_x < 1900) {
 		//x-ray button code

@@ -20,6 +20,5 @@ function flushBuffer(){
 		_newChar.isSelected = true;
 		oCharacterHUD.visible = true;
 		oCharacterHUD.currentCharacter = _newChar;
-		//uwu
 	}
 }

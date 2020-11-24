@@ -16,6 +16,7 @@
     {"id":{"name":"sTestUICircleEmpty","path":"sprites/sTestUICircleEmpty/sTestUICircleEmpty.yy",},"order":3,},
     {"id":{"name":"sUIButton","path":"sprites/sUIButton/sUIButton.yy",},"order":4,},
     {"id":{"name":"sGayBackground","path":"sprites/sGayBackground/sGayBackground.yy",},"order":0,},
+    {"id":{"name":"oTurnOrder","path":"objects/oTurnOrder/oTurnOrder.yy",},"order":1,},
     {"id":{"name":"TestBGM","path":"sounds/TestBGM/TestBGM.yy",},"order":0,},
     {"id":{"name":"sBrazier","path":"sprites/sBrazier/sBrazier.yy",},"order":0,},
     {"id":{"name":"tsFloorTiles","path":"tilesets/tsFloorTiles/tsFloorTiles.yy",},"order":0,},

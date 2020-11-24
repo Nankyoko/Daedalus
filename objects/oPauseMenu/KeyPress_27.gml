@@ -1,6 +1,8 @@
 /// @description Set paws menu to visible!
 visible = !visible;
 
+oButtons.visible = !visible;
+
 //Isn't giving the illusion of pausing better than actually pausing?~
 oCharacterHUD.currentCharacter.isSelected = false;
 oCharacterHUD.visible=false;
