@@ -6,5 +6,6 @@ if(isSelected && currentTileY != 0 && movesLeft > 0) {
 			currentTileY -= 1;
 			movesLeft--;
 			CharListInteractables(oIdleCorwin);
+			checkDamageTiles(oIdleCorwin);
 		}
 }

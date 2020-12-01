@@ -6,5 +6,6 @@ if(isSelected && currentTileY != MAP_H-1 && movesLeft > 0) {
 			currentTileY += 1;
 			movesLeft--;
 			CharListInteractables(oStiffGwen);
+			checkDamageTiles(oStiffGwen);
 		}
 }

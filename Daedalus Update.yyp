@@ -18,6 +18,7 @@
     {"id":{"name":"sGayBackground","path":"sprites/sGayBackground/sGayBackground.yy",},"order":0,},
     {"id":{"name":"oTurnOrder","path":"objects/oTurnOrder/oTurnOrder.yy",},"order":1,},
     {"id":{"name":"TestBGM","path":"sounds/TestBGM/TestBGM.yy",},"order":0,},
+    {"id":{"name":"checkDamageTiles","path":"scripts/checkDamageTiles/checkDamageTiles.yy",},"order":0,},
     {"id":{"name":"sBrazier","path":"sprites/sBrazier/sBrazier.yy",},"order":0,},
     {"id":{"name":"tsFloorTiles","path":"tilesets/tsFloorTiles/tsFloorTiles.yy",},"order":0,},
     {"id":{"name":"tsHeightTiles","path":"tilesets/tsHeightTiles/tsHeightTiles.yy",},"order":1,},
@@ -130,6 +131,7 @@
     {"folderPath":"folders/Extensions.yy","order":13,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sequences.yy","order":1,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Animation Curves.yy","order":2,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Attack and Damage.yy","order":7,"resourceVersion":"1.0","name":"Attack and Damage","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

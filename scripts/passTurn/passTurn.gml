@@ -22,16 +22,7 @@ function passTurn(){
 	oCharacterHUD.currentCharacter = _newChar;
 	
 	//If character is on damaging tiles, take damage
-	for(var i = 0; i < ds_list_size(global.damageTiles); i++) {
-		var _tile = ds_list_find_value(global.damageTiles, i);
-		if(_tile.currentTileX = _newChar.currentTileX) {
-			if(_tile.currentTileY = _newChar.currentTileY) {
-				_newChar.currentHP -= _newChar.maxHP * _tile.damage;
-				_newChar.showDamage = 60;
-				_newChar.damageTaken = _newChar.maxHP * _tile.damage;
-			}
-		}
-	}
+	checkDamageTiles(_newChar);
 	//List the character interactables
 	CharListInteractables(_newChar);
 }
