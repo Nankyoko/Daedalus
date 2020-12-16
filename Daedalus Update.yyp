@@ -30,6 +30,7 @@
     {"id":{"name":"TwoChoiceBranch","path":"scripts/TwoChoiceBranch/TwoChoiceBranch.yy",},"order":0,},
     {"id":{"name":"ThreeChoiceBranch","path":"scripts/ThreeChoiceBranch/ThreeChoiceBranch.yy",},"order":1,},
     {"id":{"name":"ChangeSprite","path":"scripts/ChangeSprite/ChangeSprite.yy",},"order":0,},
+    {"id":{"name":"rangedVision","path":"scripts/rangedVision/rangedVision.yy",},"order":1,},
     {"id":{"name":"UIRectangle","path":"scripts/UIRectangle/UIRectangle.yy",},"order":0,},
     {"id":{"name":"UIEllipse","path":"scripts/UIEllipse/UIEllipse.yy",},"order":1,},
     {"id":{"name":"passTurn","path":"scripts/passTurn/passTurn.yy",},"order":2,},
