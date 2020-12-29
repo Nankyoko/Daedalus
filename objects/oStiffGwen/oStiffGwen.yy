@@ -20,10 +20,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":87,"eventType":9,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":65,"eventType":9,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":83,"eventType":9,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":68,"eventType":9,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"oStiffGwen","path":"objects/oStiffGwen/oStiffGwen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

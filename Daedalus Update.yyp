@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sStiffSprites","path":"sprites/sStiffSprites/sStiffSprites.yy",},"order":0,},
+    {"id":{"name":"moveCharacter","path":"scripts/moveCharacter/moveCharacter.yy",},"order":4,},
     {"id":{"name":"sStiffJohn","path":"sprites/sStiffJohn/sStiffJohn.yy",},"order":1,},
     {"id":{"name":"sStiffGwen","path":"sprites/sStiffGwen/sStiffGwen.yy",},"order":2,},
     {"id":{"name":"sIdleCorwin","path":"sprites/sIdleCorwin/sIdleCorwin.yy",},"order":3,},
@@ -25,6 +26,7 @@
     {"id":{"name":"tsWallTiles","path":"tilesets/tsWallTiles/tsWallTiles.yy",},"order":2,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
     {"id":{"name":"TileToScreenX","path":"scripts/TileToScreenX/TileToScreenX.yy",},"order":0,},
+    {"id":{"name":"Inputs","path":"objects/Inputs/Inputs.yy",},"order":4,},
     {"id":{"name":"TileToScreenY","path":"scripts/TileToScreenY/TileToScreenY.yy",},"order":1,},
     {"id":{"name":"AssignRenderOrder","path":"scripts/AssignRenderOrder/AssignRenderOrder.yy",},"order":2,},
     {"id":{"name":"TwoChoiceBranch","path":"scripts/TwoChoiceBranch/TwoChoiceBranch.yy",},"order":0,},
@@ -135,16 +137,16 @@
     {"folderPath":"folders/Scripts/Attack and Damage.yy","order":7,"resourceVersion":"1.0","name":"Attack and Damage","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"FCC Rant.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.1.536",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "Daedalus Update",
