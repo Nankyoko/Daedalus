@@ -1,22 +1,31 @@
 /// @description Interacts with buttons like Sharron interacted with all those men
-if(visible && interactable || enemy && lockout == 0) {
-	
-	lockout = 10;
+if(visible) {
 	
 	//If interact is clicked, toggle it, but always deselect attack list
-	if(mouse_x > 25 && mouse_x < 150) {
+	if(mouse_x > 25 && mouse_x < 150 && numInteractables > 0) {
 		if(mouse_y > 850 && mouse_y < 875) {
 			interactClicked = !interactClicked;
 			attackClicked = false;
+			rangedClicked = false;
 			exit;
 		}
 	}
 	
 	//If attack is clicked, toggle it and always deselect the interact list
-	if(mouse_x > 25 && mouse_x < 150) {
+	if(mouse_x > 25 && mouse_x < 150 && numEnemies > 0) {
 		if(mouse_y > 815 && mouse_y < 840) {
 			attackClicked = !attackClicked;
 			interactClicked = false;
+			rangedClicked = false;
+			exit;
+		}
+	}
+	
+	if(mouse_x > 25 && mouse_x < 150 && numRanged > 0) {
+		if(mouse_y > 780 && mouse_y < 805) {
+			rangedClicked = !rangedClicked;
+			interactClicked = false;
+			attackClicked = false;
 			exit;
 		}
 	}

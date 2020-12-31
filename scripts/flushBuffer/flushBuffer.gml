@@ -20,5 +20,10 @@ function flushBuffer(){
 		_newChar.isSelected = true;
 		oCharacterHUD.visible = true;
 		oCharacterHUD.currentCharacter = _newChar;
+		//If character is on damaging tiles, take damage
+		checkDamageTiles(_newChar);
+		//List the character interactables
+		CharListInteractables(_newChar);
+		_newChar.rangedEnemies = rangedVision(_newChar, _newChar.hitRange);
 	}
 }

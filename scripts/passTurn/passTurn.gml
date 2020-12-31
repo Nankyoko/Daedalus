@@ -25,4 +25,5 @@ function passTurn(){
 	checkDamageTiles(_newChar);
 	//List the character interactables
 	CharListInteractables(_newChar);
+	_newChar.rangedEnemies = rangedVision(_newChar, _newChar.hitRange);
 }

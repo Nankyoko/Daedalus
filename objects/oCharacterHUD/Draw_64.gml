@@ -9,7 +9,7 @@ UICharHealth(currentCharacter.maxHP, currentCharacter.currentHP);
 draw_sprite(sStiffSprites, ChangeSprite(currentCharacter.name, "Happy"), 55, 965);
 
 //Draws the UI for interactable objects and nearby team members.
-if(interactable) {
+if(numInteractables > 0) {
 	UIRectangle(sTestUIRectangle, 25, 850, 150, 875);
 	draw_text(35, 860, "Interact");
 	
@@ -36,7 +36,7 @@ if(interactable) {
 
 
 //Draws the UI for adjacent enemies that can be attacked (melee)
-if(enemy) {
+if(numEnemies > 0) {
 	UIRectangle(sTestUIRectangleRed, 25, 815, 150, 840);
 	draw_text(35, 825, "Attack");
 	
@@ -57,6 +57,18 @@ if(enemy) {
 					draw_text(185, 755, ds_list_find_value(currentCharacter.nearbyEnemy, 3).name);
 				}
 			}
+		}
+	}
+}
+
+if(numRanged > 0) {
+	UIRectangle(sTestUIRectangleRed, 25, 780, 150, 805);
+	draw_text(35, 790, "Ranged");
+	
+	if(rangedClicked) {
+		for(var _i = 0; _i < numRanged; _i++) {
+			UIRectangle(sTestUIRectangleRed, 175, 850 - (35*_i), 300, 875 - (35* _i));
+			draw_text(185, 860 - (35 * _i), ds_list_find_value(currentCharacter.rangedEnemies, _i).name);
 		}
 	}
 }

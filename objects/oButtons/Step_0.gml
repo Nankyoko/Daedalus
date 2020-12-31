@@ -3,6 +3,3 @@
 if(!visible) {
 	xrayMode = false;	
 }
-if(lockout > 0) {
-	lockout--;	
-}

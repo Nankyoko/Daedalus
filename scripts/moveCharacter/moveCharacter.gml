@@ -31,6 +31,7 @@ function moveCharacter(_char, _direction, _isShove){
 			if(!_isShove) {
 				_char.movesLeft--;
 				CharListInteractables(_char);
+				_char.rangedEnemies = rangedVision(_char, _char.hitRange);
 			}
 			checkDamageTiles(_char);
 		}

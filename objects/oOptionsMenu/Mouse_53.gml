@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(visible && lockout == 0) {
+if(visible) {
 	if(mouse_x > 600 && mouse_x < 1320 && mouse_y > 270 && mouse_y < 810) {
 		if(mouse_x > 720 && mouse_x < 745) {
 			
@@ -8,7 +8,6 @@ if(visible && lockout == 0) {
 			if(mouse_y > 345 && mouse_y < 370) {
 				isFullscreen = !isFullscreen;
 				window_set_fullscreen(isFullscreen);
-				lockout = 10;
 			}
 		}
 		
@@ -23,7 +22,6 @@ if(visible && lockout == 0) {
 			if(mouse_x > 825 && mouse_x < 925) {
 				animationSpeed = 3;
 			}
-			lockout = 10;
 		}
 	} else {
 		visible = false;
@@ -32,6 +30,5 @@ if(visible && lockout == 0) {
 	//Close
 	if(mouse_x > 1200 && mouse_x < 1300 && mouse_y > 740 && mouse_y < 765) {
 		visible = false;
-		lockout = 10;
 	}
 }

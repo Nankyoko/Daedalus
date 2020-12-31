@@ -19,9 +19,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"oOptionsMenu","path":"objects/oOptionsMenu/oOptionsMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":50,"eventType":6,"collisionObjectId":null,"parent":{"name":"oOptionsMenu","path":"objects/oOptionsMenu/oOptionsMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":53,"eventType":6,"collisionObjectId":null,"parent":{"name":"oOptionsMenu","path":"objects/oOptionsMenu/oOptionsMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oOptionsMenu","path":"objects/oOptionsMenu/oOptionsMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oOptionsMenu","path":"objects/oOptionsMenu/oOptionsMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
@@ -36,18 +35,6 @@
         "GMObject",
         "GMRoom",
       ],"resourceVersion":"1.0","name":"isFullscreen","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
-        "GMTileSet",
-        "GMSprite",
-        "GMSound",
-        "GMPath",
-        "GMScript",
-        "GMShader",
-        "GMFont",
-        "GMTimeLine",
-        "GMObject",
-        "GMRoom",
-      ],"resourceVersion":"1.0","name":"lockout","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",

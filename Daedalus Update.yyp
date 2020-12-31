@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sStiffSprites","path":"sprites/sStiffSprites/sStiffSprites.yy",},"order":0,},
     {"id":{"name":"moveCharacter","path":"scripts/moveCharacter/moveCharacter.yy",},"order":4,},
+    {"id":{"name":"UICursor","path":"sprites/UICursor/UICursor.yy",},"order":5,},
     {"id":{"name":"sStiffJohn","path":"sprites/sStiffJohn/sStiffJohn.yy",},"order":1,},
     {"id":{"name":"sStiffGwen","path":"sprites/sStiffGwen/sStiffGwen.yy",},"order":2,},
     {"id":{"name":"sIdleCorwin","path":"sprites/sIdleCorwin/sIdleCorwin.yy",},"order":3,},
@@ -128,7 +129,6 @@
     {"folderPath":"folders/Objects/User Interface/Constant UI.yy","order":2,"resourceVersion":"1.0","name":"Constant UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/User Interface/Title UI.yy","order":3,"resourceVersion":"1.0","name":"Title UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Special Interactables.yy","order":5,"resourceVersion":"1.0","name":"Special Interactables","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Players.yy","order":6,"resourceVersion":"1.0","name":"Players","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms.yy","order":11,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":12,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":13,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},

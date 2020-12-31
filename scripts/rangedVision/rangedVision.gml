@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function rangedVision(_char, _range){
-	//Oh my god this was so much work.  It works really well tho
+	//Oh my god this was so much work.  It works pretty well tho
 	//This feels like a ton of variables?
 	var _hittable = ds_list_create();
 	var _heightChange = 0;
