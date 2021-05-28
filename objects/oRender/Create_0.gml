@@ -51,6 +51,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		var heightMapData = tilemap_get(heightMap, tX, tY);
 		var wallMapData = tilemap_get(wallMap, tX, tY);
 		var wallheightMapData = tilemap_get(wallHeightMap, tX, tY);
+		
 		//Format: [Sprite, Z height]
 		//-1 is an error escape incase something strange happens
 		var thisTile = [-1, 0];
@@ -91,7 +92,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 }
 
 //Plays background music
-audio_play_sound(TestBGM, 0, true);
+//audio_play_sound(TestBGM, 0, true);
 
 //Randomizes all the random ranges
 randomize();
