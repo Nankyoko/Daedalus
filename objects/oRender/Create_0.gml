@@ -35,6 +35,9 @@ global.charTurnBuffer = ds_list_create();
 //The queue of all characters with a turn, filled from the flushed buffer
 global.charTurnQueue = ds_queue_create();
 
+//The list of currently active UI elements for the cursor to move through
+global.activeUI = ds_list_create();
+
 //Pulls in the maps to get the individual tile information out of each
 var tileMap = layer_tilemap_get_id("map");
 var heightMap = layer_tilemap_get_id("heightmap");
